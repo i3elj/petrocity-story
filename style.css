@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --huge-text: 64px;
+    --large-text: 32px;
+    --medium-text: 26px;
+    --normal-text: 18px;
+    --small-text: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, JetBrains Mono;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,39 @@
+[
+    {
+	"ano": 2010,	
+	"politica": {
+	    "eleicoes": [
+		"No ano tal fulano foi eleito como prefeito",
+		"No ano tal sicrano foi eleito como vereador"
+	    ],
+	    "leis": [],
+	    "projetos": [],
+	    "campanhas": []
+	},
+	"atracoes": {
+	    "festas": [],
+	    "shows": [],
+	    "eventos": [],
+	    "outros": []
+	},
+	"obituario": [{
+	    "nome": "nome da pessoa",
+	    "noticia": "fulano morreu em...",
+	    "foto": "pessoa.png"
+	}],
+	"inauguracoes": {
+	    "edificios": ["a"],
+	    "arte": ["a"],
+	    "cultura": ["a"],
+	    "outros": ["a"]
+	},
+	"estatisticas": {
+	    "natalidade": 20,
+	    "mortalidade": 30,
+	    "criminalidade": 10,
+	    "escolaridade": 43,
+	    "populacao": 200000
+	},
+	"resumo": "um resumo do ano"
+    }
+]
