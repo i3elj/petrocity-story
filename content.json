@@ -1,7 +1,20 @@
 [
     {
-	"ano": 2010,	
+	"ano": 1870,
+	"politica": null,
+	"atracoes": null,
+	"obituario": null,
+	"inauguracoes": null,
+	"estatisticas": null,
+	"resumo": {
+	    "type": 1,
+	    "content": "um resumo do ano"
+	}
+    },
+    {
+	"ano": 2010,
 	"politica": {
+	    "type": 2,
 	    "eleicoes": [
 		"No ano tal fulano foi eleito como prefeito",
 		"No ano tal sicrano foi eleito como vereador"
@@ -11,29 +24,38 @@
 	    "campanhas": []
 	},
 	"atracoes": {
+	    "type": 3,
 	    "festas": [],
 	    "shows": [],
 	    "eventos": [],
 	    "outros": []
 	},
-	"obituario": [{
-	    "nome": "nome da pessoa",
-	    "noticia": "fulano morreu em...",
-	    "foto": "pessoa.png"
-	}],
+	"obituario": {
+	    "type": 4,
+	    "content": [{
+		"nome": "nome da pessoa",
+		"noticia": "fulano morreu em...",
+		"foto": "pessoa.png"
+	    }]
+	},
 	"inauguracoes": {
+	    "type": 5,
 	    "edificios": ["a"],
 	    "arte": ["a"],
 	    "cultura": ["a"],
 	    "outros": ["a"]
 	},
 	"estatisticas": {
+	    "type": 6,
 	    "natalidade": 20,
 	    "mortalidade": 30,
 	    "criminalidade": 10,
 	    "escolaridade": 43,
 	    "populacao": 200000
 	},
-	"resumo": "um resumo do ano"
+	"resumo": {
+	    "type": 1,
+	    "content": "um resumo do ano"
+	}
     }
 ]

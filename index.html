@@ -2,8 +2,8 @@
 <html>
     <head>
 	<title>Petrolina</title>
+	<link rel="stylesheet" type="text/css" href="globals.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet" type="text/css" href="pages/homepage.css"/>
     </head>
     <body>
 	<div id="fixed-position">
@@ -17,7 +17,7 @@
 
 	<!-- info content -->
 	<aside id="sidebar-info">
-	    <div id="close-btn-wrapper" onclick="toggleClass('#sidebar-info', 'sidebar-info-expanded')">
+	    <div id="close-btn-wrapper">
 		<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 		    <path d="M1 25L25 1M25 25L1 1" stroke="black" stroke-width="2" stroke-linecap="round"/>
 		</svg>
@@ -47,33 +47,81 @@
 
 	    <div id="second-section" >
 		<ul id="upper-years">
-		    <li onclick="console.log('clicked 1870')">1870</li>
-		    <li onclick="console.log('clicked 2010')">2010</li>
-		    <li onclick="console.log('clicked 2012')">2012</li>
-		    <li onclick="console.log('clicked 2014')">2014</li>
-		    <li onclick="console.log('clicked 2016')">2016</li>
-		    <li onclick="console.log('clicked 2018')">2018</li>
-		    <li onclick="console.log('clicked 2020')">2020</li>
-		    <li onclick="console.log('clicked 2022')">2022</li>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="1870" type="radio" checked>
+			<span>1870</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2010" type="radio">
+			<span>2010</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2012" type="radio">
+			<span>2012</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2014" type="radio">
+			<span>2014</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2016" type="radio">
+			<span>2016</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2018" type="radio">
+			<span>2018</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2020" type="radio">
+			<span>2020</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2022" type="radio">
+			<span>2022</span>
+		    </label>
 		</ul>
 		<svg id="timeline" width="739" height="74" viewBox="0 0 739 74" fill="black">
 		    <path d="M6.5 37.0812V38.0812H7.5H58.5V59.1576C55.3849 59.6386 53 62.3314 53 65.5812C53 69.171 55.9101 72.0812 59.5 72.0812C63.0899 72.0812 66 69.171 66 65.5812C66 62.3314 63.6151 59.6386 60.5 59.1576V38.0812H103.5H154.5V59.1576C151.385 59.6386 149 62.3314 149 65.5812C149 69.171 151.91 72.0812 155.5 72.0812C159.09 72.0812 162 69.171 162 65.5812C162 62.3314 159.615 59.6386 156.5 59.1576V38.0812H199.5H250.5V59.1576C247.385 59.6386 245 62.3314 245 65.5812C245 69.171 247.91 72.0812 251.5 72.0812C255.09 72.0812 258 69.171 258 65.5812C258 62.3314 255.615 59.6386 252.5 59.1576V38.0812H295.5H346.5V59.1576C343.385 59.6386 341 62.3314 341 65.5812C341 69.171 343.91 72.0812 347.5 72.0812C351.09 72.0812 354 69.171 354 65.5812C354 62.3314 351.615 59.6386 348.5 59.1576V38.0812H391.5H442.5V59.1576C439.385 59.6386 437 62.3314 437 65.5812C437 69.171 439.91 72.0812 443.5 72.0812C447.09 72.0812 450 69.171 450 65.5812C450 62.3314 447.615 59.6386 444.5 59.1576V38.0812H487.5H538.5V59.1576C535.385 59.6386 533 62.3314 533 65.5812C533 69.171 535.91 72.0812 539.5 72.0812C543.09 72.0812 546 69.171 546 65.5812C546 62.3314 543.615 59.6386 540.5 59.1576V38.0812H583.5H634.5V59.1576C631.385 59.6386 629 62.3314 629 65.5812C629 69.171 631.91 72.0812 635.5 72.0812C639.09 72.0812 642 69.171 642 65.5812C642 62.3314 639.615 59.6386 636.5 59.1576V38.0812H679.5H730.5L730.5 59.1576C727.385 59.6386 725 62.3314 725 65.5812C725 69.171 727.91 72.0812 731.5 72.0812C735.09 72.0812 738 69.171 738 65.5812C738 62.3314 735.615 59.6386 732.5 59.1576L732.5 37.0812V36.0812H731.5H680.5V14.0047C683.615 13.5237 686 10.831 686 7.58118C686 3.99133 683.09 1.08118 679.5 1.08118C675.91 1.08118 673 3.99133 673 7.58118C673 10.831 675.385 13.5237 678.5 14.0047V36.0812H635.5H584.5V14.0047C587.615 13.5237 590 10.831 590 7.58118C590 3.99133 587.09 1.08118 583.5 1.08118C579.91 1.08118 577 3.99133 577 7.58118C577 10.831 579.385 13.5237 582.5 14.0047V36.0812H539.5H488.5V14.0047C491.615 13.5237 494 10.831 494 7.58118C494 3.99133 491.09 1.08118 487.5 1.08118C483.91 1.08118 481 3.99133 481 7.58118C481 10.831 483.385 13.5237 486.5 14.0047V36.0812H443.5H392.5V14.0047C395.615 13.5237 398 10.831 398 7.58118C398 3.99133 395.09 1.08118 391.5 1.08118C387.91 1.08118 385 3.99133 385 7.58118C385 10.831 387.385 13.5237 390.5 14.0047V36.0812H347.5H296.5V14.0047C299.615 13.5237 302 10.831 302 7.58118C302 3.99133 299.09 1.08118 295.5 1.08118C291.91 1.08118 289 3.99133 289 7.58118C289 10.831 291.385 13.5237 294.5 14.0047V36.0812H251.5H200.5V14.0047C203.615 13.5237 206 10.831 206 7.58118C206 3.99133 203.09 1.08118 199.5 1.08118C195.91 1.08118 193 3.99133 193 7.58118C193 10.831 195.385 13.5237 198.5 14.0047V36.0812H155.5H104.5V14.0047C107.615 13.5237 110 10.831 110 7.58118C110 3.99133 107.09 1.08118 103.5 1.08118C99.9101 1.08118 97 3.99133 97 7.58118C97 10.831 99.3849 13.5237 102.5 14.0047V36.0812H59.5H8.5V15.0047C11.6151 14.5237 14 11.831 14 8.58118C14 4.99133 11.0899 2.08118 7.5 2.08118C3.91015 2.08118 1 4.99133 1 8.58118C1 11.831 3.38491 14.5237 6.5 15.0047V37.0812Z" stroke="black" stroke-width="1" stroke-linecap="round"/>
 		</svg>
 		<ul id="lower-years">
-		    <li onclick="console.log('clicked 2009')">2009</li>
-		    <li onclick="console.log('clicked 2011')">2011</li>
-		    <li onclick="console.log('clicked 2013')">2013</li>
-		    <li onclick="console.log('clicked 2015')">2015</li>
-		    <li onclick="console.log('clicked 2017')">2017</li>
-		    <li onclick="console.log('clicked 2019')">2019</li>
-		    <li onclick="console.log('clicked 2021')">2021</li>
-		    <li onclick="console.log('clicked Hoje')">Hoje</li>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2009" type="radio">
+			<span>2009</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2011" type="radio">
+			<span>2011</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2013" type="radio">
+			<span>2013</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2015" type="radio">
+			<span>2015</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2017" type="radio">
+			<span>2017</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2019" type="radio">
+			<span>2019</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2021" type="radio">
+			<span>2021</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="Hoje" type="radio">
+			<span>Hoje</span>
+		    </label>
 		</ul>
 	    </div>
 	</main>
 
 	<!-- menu sidebar -->
-	<div id="sidebar-btn" onclick="toggleClass('#sidebar', 'sidebar-expanded')">
+	<div id="sidebar-btn">
 	    <svg width="32" height="21" viewBox="0 0 32 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<path d="M0 0H32V3H0V0Z" fill="black"/>
 		<path d="M0 9H32V12H0V9Z" fill="black"/>
@@ -83,47 +131,101 @@
 	
 	<aside id="sidebar">
 	    <h2>Menu</h2>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(2)">Política</p>
-	    </div>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(3)">Atrações</p>
-	    </div>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(4)">Obituário</p>
-	    </div>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(5)">Inaugurações</p>
-	    </div>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(6)">Estatísticas</p>
-	    </div>
-	    <div class="sidebar-item">
-		<p onclick="loadCategory(1)">Resumo do Ano</p>
-	    </div>
+	    <label class="sidebar-item">
+		<input name="category" value="resumo" type="radio" checked>
+		<span>Resumo do Ano</span>
+	    </label>
+	    <label class="sidebar-item">
+		<input name="category" value="politica" type="radio">
+		<span>Política</span>
+	    </label>
+	    <label class="sidebar-item">
+		<input name="category" value="atracoes" type="radio">
+		<span>Atrações</span>
+	    </label>
+	    <label class="sidebar-item">
+		<input name="category" value="obituario" type="radio">
+		<span>Obituário</span>
+	    </label>
+	    <label class="sidebar-item">
+		<input name="category" value="inauguracoes" type="radio">
+		<span>Inaugurações</span>
+	    </label>
+	    <label class="sidebar-item">
+		<input name="category" value="estatisticas" type="radio">
+		<span>Estatísticas</span>
+	    </label>
 
 	    <div id="years-scroll-wrapper">
 		<ul id="years-scroll">
-		    <li onclick="console.log('clicked')">1870</li>
-		    <li onclick="console.log('clicked')">2009</li>
-		    <li onclick="console.log('clicked')">2010</li>
-		    <li onclick="console.log('clicked')">2011</li>
-		    <li onclick="console.log('clicked')">2012</li>
-		    <li onclick="console.log('clicked')">2013</li>
-		    <li onclick="console.log('clicked')">2014</li>
-		    <li onclick="console.log('clicked')">2015</li>
-		    <li onclick="console.log('clicked')">2016</li>
-		    <li onclick="console.log('clicked')">2017</li>
-		    <li onclick="console.log('clicked')">2018</li>
-		    <li onclick="console.log('clicked')">2019</li>
-		    <li onclick="console.log('clicked')">2021</li>
-		    <li onclick="console.log('clicked')">2020</li>
-		    <li onclick="console.log('clicked')">2022</li>
-		    <li onclick="console.log('clicked')">Hoje</li>
+		    <label>
+			<input name="yearscroll" value="1870" type="radio" checked/>
+			<span>1870</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2009" type="radio"/>
+			<span>2009</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2010" type="radio"/>
+			<span>2010</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2011" type="radio"/>
+			<span>2011</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2012" type="radio"/>
+			<span>2012</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2013" type="radio"/>
+			<span>2013</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2014" type="radio"/>
+			<span>2014</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2015" type="radio"/>
+			<span>2015</span>
+		    </label>
+		    <label class="timeline-year">
+			<input name="timelineyear" value="2016" type="radio">
+			<span>2016</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2017" type="radio"/>
+			<span>2017</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2018" type="radio"/>
+			<span>2018</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2019" type="radio"/>
+			<span>2019</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2021" type="radio"/>
+			<span>2021</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2020" type="radio"/>
+			<span>2020</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="2022" type="radio"/>
+			<span>2022</span>
+		    </label>
+		    <label>
+			<input name="yearscroll" value="Hoje" type="radio"/>
+			<span>Hoje</span>
+		    </label>
 		</ul>
 	    </div>
 	</aside>
     </body>
 
-    <script type="text/javascript" src="pages/homepage.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </html>
