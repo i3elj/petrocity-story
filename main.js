@@ -1,21 +1,20 @@
-let Categories = {
-    RESUMO: 1,
-    POLITICA: 2,
-    ATRACOES: 3,
-    OBITUARIO: 4,
-    INAUGURACOES: 5,
-    ESTATISTICAS: 6
-}
+class Categories {
+    static RESUMO = 1;
+    static POLITICA = 2;
+    static ATRACOES = 3;
+    static OBITUARIO = 4;
+    static INAUGURACOES = 5;
+    static ESTATISTICAS = 6;
+    
+    static categoryMap = [[ "resumo", this.RESUMO ],
+			[ "politica", this.POLITICA ],
+			[ "atracoes", this.ATRACOES ],
+			[ "obituario", this.OBITUARIO ],
+			[ "inauguracoes", this.INAUGURACOES ],
+			[ "estatisticas", this.ESTATISTICA ]];
 
-function createCategory(categoryString)
-{
-    switch (categoryString) {
-    case "resumo": return Categories.RESUMO; break;
-    case "politica": return Categories.POLITICA; break;
-    case "atracoes": return Categories.ATRACOES; break;
-    case "obituario": return Categories.OBITUARIO; break;
-    case "inauguracoes": return Categories.INAUGURACOES; break;
-    case "estatisticas": return Categories.ESTATISTICAS; break;
+    static get(str) {
+	return this.categoryMap.filter((v) => v[0] == str)[0][1]
     }
 }
 
@@ -32,6 +31,7 @@ let ProgramState = {
     fileContent: [],
     yearContent: {},
     categoryContent: {},
+    categoryReadableName: "Resumo",
     // ui
     uiType: UITypes.TEXT,
     infoContainer: document.querySelector('#sidebar-info'),
@@ -40,7 +40,7 @@ let ProgramState = {
     sidebarInfoOpen: 0
 }
 
-// content
+//--- content functions ---//
 async function loadFile(state, file)
 {
     const res = await fetch(file)
@@ -58,34 +58,79 @@ async function loadCategory(state, category)
 {
     state.selectedCategory = category
     switch (state.selectedCategory) {
-    case Categories.RESUMO: state.categoryContent = await state.yearContent.resumo; break;
-    case Categories.POLITICA: state.categoryContent = await state.yearContent.politica; break;
-    case Categories.ATRACOES: state.categoryContent = await state.yearContent.atracoes; break;
-    case Categories.OBITUARIO: state.categoryContent = await state.yearContent.obituario; break;
-    case Categories.INAUGURACOES: state.categoryContent = await state.yearContent.inauguracoes; break;
-    case Categories.ESTATISTICAS: state.categoryContent = await state.yearContent.estatisticas; break;
+    case Categories.RESUMO:
+	state.categoryContent = await state.yearContent.resumo
+	state.uiType = UITypes.TEXT
+	state.categoryReadableName = "Resumo"
+	break
+    case Categories.POLITICA:
+	state.categoryContent = await state.yearContent.politica
+	state.uiType = UITypes.BULLETPOINTS
+	state.categoryReadableName = "Política"
+	break
+    case Categories.ATRACOES:
+	state.categoryContent = await state.yearContent.atracoes
+	state.uiType = UITypes.BULLETPOINTS
+	state.categoryReadableName = "Atrações"
+	break
+    case Categories.OBITUARIO:
+	state.categoryContent = await state.yearContent.obituario
+	state.uiType = UITypes.BULLETPOINTS
+	state.categoryReadableName = "Obituário"
+	break
+    case Categories.INAUGURACOES:
+	state.categoryContent = await state.yearContent.inauguracoes
+	state.uiType = UITypes.BULLETPOINTS
+	state.categoryReadableName = "Inaugurações"
+	break
+    case Categories.ESTATISTICAS:
+	state.categoryContent = await state.yearContent.estatisticas
+	state.uiType = UITypes.BULLETPOINTS
+	state.categoryReadableName = "Estatísticas"
+	break
     }
 }
 
-// ui
+//--- ui functions ---//
 function buildUI(state)
 {
+    let contentContainer = document.createElement('div')
+    contentContainer.setAttribute('id', 'sidebar-info-content')
+    let title = document.createElement('h2')
+    title.textContent = `${state.categoryReadableName} do ano de ${state.selectedYear}`
+    
     switch (state.uiType) {
     case UITypes.TEXT:
-	let title = document.createElement('h2')
-	title.textContent = `Resumo do ano de ${state.selectedYear}`
-
-	let resumoWrapper = document.createElement('div')
-	resumoWrapper.setAttribute('id', 'sidebar-info-content')
 	let resumo = document.createElement('p')
 	resumo.textContent = state.yearContent.resumo.content
-	resumoWrapper.appendChild(resumo)
+	contentContainer.appendChild(resumo)
 
 	state.infoContainer.appendChild(state.closeBtn)
 	state.infoContainer.appendChild(title)
-	state.infoContainer.appendChild(resumoWrapper)
+	state.infoContainer.appendChild(contentContainer)
 	break
+
     case UITypes.BULLETPOINTS:
+	state.categoryContent.content.forEach((element, index, array) => {
+	    let section = document.createElement('section')
+	    let title = document.createElement('h3')
+	    title.textContent = element.title
+	    let ul = document.createElement('ul')
+
+	    element.bullets.forEach(bullet => {
+		let li = document.createElement('li')
+		li.textContent = bullet
+		ul.appendChild(li)
+	    })
+	    
+	    section.appendChild(title)
+	    section.appendChild(ul)
+	    contentContainer.appendChild(section)
+	})
+
+	state.infoContainer.appendChild(state.closeBtn)
+	state.infoContainer.appendChild(title)
+	state.infoContainer.appendChild(contentContainer)
 	break
     }
 }
@@ -149,19 +194,22 @@ function toggleClass(selector, classname)
     await loadCategory(ProgramState, Categories.RESUMO)
 })()
 
-// cleanUI(ProgramState)
+cleanUI(ProgramState)
 createCloseBtn(ProgramState)
 
-// event listeners
+//--- event listeners ---//
 // menu button event listener
-document.querySelector("#sidebar-btn")
-    .addEventListener('click', () => toggleSidebar())
+document.querySelector("#sidebar-btn").addEventListener('click', () => {
+    toggleSidebar()
+    ProgramState.sidebarMenuOpen ^= true
+})
 
 // timeline event listeners
 document.querySelectorAll(".timeline-year input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
 	let selectedYear = event.target.value
 	loadYear(ProgramState, selectedYear)
+	
 	if (!ProgramState.sidebarMenuOpen) {
 	    openSidebar()
 	    ProgramState.sidebarMenuOpen ^= true
@@ -172,21 +220,26 @@ document.querySelectorAll(".timeline-year input").forEach((element, i, a) => {
 // sidebar event listeners
 document.querySelectorAll(".sidebar-item input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
-	let selectedCategory = createCategory(event.target.value)
-	loadCategory(ProgramState, selectedCategory)
+	let selectedCategory = Categories.get(event.target.value)
 
-	if (ProgramState.sidebarInfoOpen)
-	{
-	    closeSidebarInfo()
-	    setTimeout(() => cleanUI(ProgramState), 500)
-	    ProgramState.sidebarInfoOpen ^= true
-	}
-	else
-	{
-	    buildUI(ProgramState)
-	    openSidebarInfo()
-	    ProgramState.sidebarInfoOpen ^= true
-	}
+	loadCategory(ProgramState, selectedCategory)
+	    .then(() => {
+		if (ProgramState.sidebarInfoOpen) {
+		    closeSidebarInfo()
+		    setTimeout(() => cleanUI(ProgramState), 500)
+		    ProgramState.sidebarInfoOpen ^= true
+
+		    setTimeout(() => {
+			buildUI(ProgramState)
+			openSidebarInfo()
+			ProgramState.sidebarInfoOpen ^= true
+		    }, 500)
+		} else {
+		    buildUI(ProgramState)
+		    openSidebarInfo()
+		    ProgramState.sidebarInfoOpen ^= true
+		}
+	    })
     })
 })
 

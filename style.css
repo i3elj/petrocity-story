@@ -50,10 +50,6 @@ img {
     z-index: -1;
 }
 
-li {
-    cursor: pointer;
-}
-
 #first-section {
     display: flex;
     flex-direction: column;
@@ -217,16 +213,33 @@ input:checked + span {
 }
 
 #sidebar-info > h2 {
-    padding-bottom: 50px;
-    text-align: justify;
+    width: 100%;
+    text-align: center;
     font-family: Poppins;
     font-size: var(--large-text);
     font-weight: 400;
-    width: 100%;
-    text-align: center;
 }
 
 #sidebar-info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
     padding: 80px;
     text-align: justify;
 }
+
+#sidebar-info-content > section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sidebar-info-content > section > h3 {
+    font-size: var(--medium-text);
+    font-weight: normal;
+}
+
+#sidebar-info-content > section > ul {
+    padding: 0 80px;
+}
+
