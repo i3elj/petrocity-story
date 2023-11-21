@@ -109,7 +109,7 @@ input:checked + span {
 
 
 /* menu sidebar */
-#sidebar-btn {
+#menu-btn {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -117,13 +117,13 @@ input:checked + span {
     z-index: 2;
 }
 
-#sidebar {
+#menu {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: -508px;
+    width: 25vw;
     height: 100vh;
-    width: 508px;
+    right: -25vw;
     overflow: hidden;
     transition: 500ms;
     background: rgba(255, 255, 255, 0.50);
@@ -132,11 +132,11 @@ input:checked + span {
     z-index: 1;
 }
 
-.sidebar-expanded {
+.menu-expanded {
     right: 0 !important;
 }
 
-#sidebar > h2 {
+#menu > h2 {
     padding-top: 104px;
     padding-bottom: 50px;
     text-align: justify;
@@ -147,13 +147,13 @@ input:checked + span {
     text-align: center;
 }
 
-.sidebar-item {
+.menu-item {
     padding: 10px 0 10px 80px;
 }
-.sidebar-item > span {
+.menu-item > span {
     cursor: pointer;
 }
-.sidebar-item > input:checked + .sidebar-item > span {
+.menu-item > input:checked + .menu-item > span {
     color: var(--blue);
 }
 
@@ -186,11 +186,11 @@ input:checked + span {
     padding-right: 20px;
 }
 
-#sidebar-info {
+#info {
     height: 100vh;
-    width: 1412px;
+    width: 75vw;
     position: absolute;
-    left: -1412px;
+    left: -75vw;
     background: rgba(255, 255, 255, 0.50);
     /* box-shadow: 0px 0px 45px 10px rgba(0, 0, 0, 0.20); */
     backdrop-filter: blur(35px);
@@ -199,7 +199,7 @@ input:checked + span {
     z-index: 2;
 }
 
-.sidebar-info-expanded {
+.info-expanded {
     left: 0px !important;
 }
 
@@ -212,7 +212,7 @@ input:checked + span {
     cursor: pointer;
 }
 
-#sidebar-info > h2 {
+#info > h2 {
     width: 100%;
     text-align: center;
     font-family: Poppins;
@@ -220,7 +220,7 @@ input:checked + span {
     font-weight: 400;
 }
 
-#sidebar-info-content {
+#info-content {
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -228,18 +228,18 @@ input:checked + span {
     text-align: justify;
 }
 
-#sidebar-info-content > section {
+#info-content > section {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#sidebar-info-content > section > h3 {
+#info-content > section > h3 {
     font-size: var(--medium-text);
     font-weight: normal;
 }
 
-#sidebar-info-content > section > ul {
+#info-content > section > ul {
     padding: 0 80px;
 }
 

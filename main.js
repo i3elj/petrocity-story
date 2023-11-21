@@ -31,13 +31,28 @@ let ProgramState = {
     fileContent: [],
     yearContent: {},
     categoryContent: {},
-    categoryReadableName: "Resumo",
+    categoryReadableName: 'Resumo',
     // ui
     uiType: UITypes.TEXT,
-    infoContainer: document.querySelector('#sidebar-info'),
+    uiYear: {
+	timelineItems: document.querySelectorAll('.timeline-item input'),
+	scrollItems: document.querySelectorAll('.yearscroll-item input')
+    },
+    infoContainer: document.querySelector('#info'),
     closeBtn: null,
-    sidebarMenuOpen: 0,
-    sidebarInfoOpen: 0
+    menuIsOpen: 0,
+    infoIsOpen: 0
+}
+
+//--- state functions ---//
+function toggleMenuState(state)
+{
+    state.menuIsOpen ^= true
+}
+
+function toggleInfoState(state)
+{
+    state.infoIsOpen ^= true
 }
 
 //--- content functions ---//
@@ -52,6 +67,8 @@ async function loadYear(state, year)
     state.selectedYear = Number(year)
     state.yearContent = await state.fileContent
 	.filter(v => v.ano == state.selectedYear)[0]
+    changeUIYear(state)
+    console.log(state.selectedYear)
 }
 
 async function loadCategory(state, category)
@@ -95,7 +112,7 @@ async function loadCategory(state, category)
 function buildUI(state)
 {
     let contentContainer = document.createElement('div')
-    contentContainer.setAttribute('id', 'sidebar-info-content')
+    contentContainer.setAttribute('id', 'info-content')
     let title = document.createElement('h2')
     title.textContent = `${state.categoryReadableName} do ano de ${state.selectedYear}`
     
@@ -146,7 +163,7 @@ function createCloseBtn(state)
     state.closeBtn = document.createElement("div")
     state.closeBtn.id = "close-btn-wrapper"
     state.closeBtn.onclick = () => {
-	toggleClass('#sidebar-info', 'sidebar-info-expanded')
+	toggleClass('#info', 'info-expanded')
 	setTimeout(() => cleanUI(state), 500)
 	ProgramState.sidebarInfoOpen ^= true
     }
@@ -167,11 +184,36 @@ function createCloseBtn(state)
     state.closeBtn.appendChild(closeBtnSvg)
 }
 
-const toggleSidebar = () => toggleClass('#sidebar', 'sidebar-expanded')
-const openSidebar = () => addClass('#sidebar', 'sidebar-expanded')
-const closeSidebar = () => removeClass('#sidebar', 'sidebar-expanded')
-const openSidebarInfo = () => addClass('#sidebar-info', 'sidebar-info-expanded')
-const closeSidebarInfo = () => removeClass('#sidebar-info', 'sidebar-info-expanded')
+function changeUIYear(state)
+{
+    const year = state.selectedYear
+    state.uiYear.timelineItems.forEach(el => {
+	if (el.checked && el.value != year) el.checked = false
+	else if (el.value == year) el.checked = true
+    })
+    state.uiYear.scrollItems.forEach(el => {
+	if (el.checked && el.value != year) el.checked = false
+	else if (el.value == year) el.checked = true
+    })
+}
+
+const toggleMenu = () => toggleClass('#menu', 'menu-expanded')
+const openMenu = () => addClass('#menu', 'menu-expanded')
+const closeMenu = () => removeClass('#menu', 'menu-expanded')
+const openInfo = () => addClass('#info', 'info-expanded')
+const closeInfo = () => removeClass('#info', 'info-expanded')
+const toggleInfo = (state) =>
+{
+    closeInfo()
+    setTimeout(() => cleanUI(state), 500)
+    toggleInfoState(state)
+
+    setTimeout(() => {
+	buildUI(state)
+	openInfo()
+	toggleInfoState(state)
+    }, 500)
+}
 
 function addClass(selector, classname)
 {
@@ -199,45 +241,47 @@ createCloseBtn(ProgramState)
 
 //--- event listeners ---//
 // menu button event listener
-document.querySelector("#sidebar-btn").addEventListener('click', () => {
-    toggleSidebar()
-    ProgramState.sidebarMenuOpen ^= true
+document.querySelector("#menu-btn").addEventListener('click', () => {
+    toggleMenu()
+    toggleMenuState(ProgramState)
 })
 
 // timeline event listeners
-document.querySelectorAll(".timeline-year input").forEach((element, i, a) => {
+document.querySelectorAll(".timeline-item input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
 	let selectedYear = event.target.value
 	loadYear(ProgramState, selectedYear)
 	
-	if (!ProgramState.sidebarMenuOpen) {
-	    openSidebar()
-	    ProgramState.sidebarMenuOpen ^= true
+	if (!ProgramState.menuIsOpen) {
+	    openMenu()
+	    toggleMenuState(ProgramState)
 	}
     })
 })
+document.querySelectorAll(".yearscroll-item input").forEach((element, i, a) => {
+    element.addEventListener('click', event => {
+	let selectedYear = event.target.value
+	loadYear(ProgramState, selectedYear)
+
+	cleanUI(ProgramState)
+	buildUI(ProgramState)
+    })
+})
+
 
 // sidebar event listeners
-document.querySelectorAll(".sidebar-item input").forEach((element, i, a) => {
+document.querySelectorAll(".menu-item input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
 	let selectedCategory = Categories.get(event.target.value)
 
 	loadCategory(ProgramState, selectedCategory)
 	    .then(() => {
-		if (ProgramState.sidebarInfoOpen) {
-		    closeSidebarInfo()
-		    setTimeout(() => cleanUI(ProgramState), 500)
-		    ProgramState.sidebarInfoOpen ^= true
-
-		    setTimeout(() => {
-			buildUI(ProgramState)
-			openSidebarInfo()
-			ProgramState.sidebarInfoOpen ^= true
-		    }, 500)
+		if (ProgramState.infoIsOpen) {
+		    toggleInfo(ProgramState)
 		} else {
 		    buildUI(ProgramState)
-		    openSidebarInfo()
-		    ProgramState.sidebarInfoOpen ^= true
+		    openInfo()
+		    toggleInfoState(ProgramState)
 		}
 	    })
     })
