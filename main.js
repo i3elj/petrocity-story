@@ -68,7 +68,6 @@ async function loadYear(state, year)
     state.yearContent = await state.fileContent
 	.filter(v => v.ano == state.selectedYear)[0]
     changeUIYear(state)
-    console.log(state.selectedYear)
 }
 
 async function loadCategory(state, category)
@@ -132,16 +131,11 @@ function buildUI(state)
 	    let section = document.createElement('section')
 	    let title = document.createElement('h3')
 	    title.textContent = element.title
-	    let ul = document.createElement('ul')
-
-	    element.bullets.forEach(bullet => {
-		let li = document.createElement('li')
-		li.textContent = bullet
-		ul.appendChild(li)
-	    })
+	    let p = document.createElement('p')
+	    p.textContent = element.content
 	    
 	    section.appendChild(title)
-	    section.appendChild(ul)
+	    section.appendChild(p)
 	    contentContainer.appendChild(section)
 	})
 
@@ -262,9 +256,9 @@ document.querySelectorAll(".yearscroll-item input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
 	let selectedYear = event.target.value
 	loadYear(ProgramState, selectedYear)
-
-	cleanUI(ProgramState)
-	buildUI(ProgramState)
+	    .then(_ => loadCategory(ProgramState, ProgramState.selectedCategory))
+	    .then(_ => { cleanUI(ProgramState)
+			 buildUI(ProgramState) })
     })
 })
 
@@ -286,4 +280,3 @@ document.querySelectorAll(".menu-item input").forEach((element, i, a) => {
 	    })
     })
 })
-
