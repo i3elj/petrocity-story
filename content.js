@@ -5,12 +5,15 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: [
+			"Justiça Eleitoral retoma coleta biométrica em Petrolina, Afrânio e Dormentes",
+			"Prefeitura divulga erratas de editais da Lei Paulo Gustavo em Petrolina",
+			"Debates sobre LOA 2024 e PPA de Petrolina na Câmara não escapam do espectro eleitoral",
+		    ]
 		}
 	    ]
 	},
-
 	atracoes: {
 	    type: 3,
 	    content: [
@@ -50,8 +53,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -59,14 +62,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2023 em Petrolina foi marcado por diversos acontecimentos significativos. O Carnaval, um dos eventos mais aguardados, contou com a participação de mais de 60 atrações, proporcionando momentos de diversão e celebração para a comunidade. </br></br>O São João de Petrolina em 2023 trouxe o espírito junino à cidade, com festividades que animaram os moradores e resgataram as tradições locais. </br></br>A Defesa Civil de Petrolina emitiu um alerta após o município atingir a maior temperatura do ano, destacando a importância da prevenção e cuidados em situações climáticas extremas. </br></br>Infelizmente, o ano também foi marcado por perdas significativas. O cantor Pedro Duarte, membro da banda Linguagem Musical, faleceu, deixando uma lacuna na cena musical local e sendo lembrado pelo seu talento e contribuição para a cultura da região. </br></br>Além disso, os moradores de Petrolina enfrentaram desafios relacionados à falta de água, evidenciando a necessidade de medidas para garantir o acesso a recursos hídricos essenciais para a comunidade. Esses eventos refletem a diversidade de experiências vivenciadas pela população de Petrolina ao longo do ano de 2023. "
 	}
     },
     {
@@ -75,8 +78,10 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: [
+			"Em busca da reeleição, Gonzaga Patriota faz caminhada em Petrolina",
+		    ]
 		}
 	    ]
 	},
@@ -84,8 +89,8 @@ let Content = [
 	    type: 3,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -123,8 +128,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -139,7 +144,7 @@ let Content = [
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2022 em Petrolina foi caracterizado por uma série de eventos marcantes. Inicialmente, o Carnaval foi cancelado devido à persistência da pandemia de COVID-19, refletindo a preocupação com a saúde pública e a segurança da população. </br></br>Após anos de paralisação devido à pandemia, o São João do Vale retornou, proporcionando momentos de celebração e resgatando a tradição local. </br></br>Os leitores do município participaram ativamente na disputa entre Lula (PT) e Bolsonaro (PL) pela Presidência da República. Lula foi o candidato mais votado em Petrolina, recebendo 67,62% dos votos, enquanto Bolsonaro obteve 32,38%. </br></br>A chegada de 2023 em Petrolina foi celebrada com dois dias de festa, conhecida como 'Virada Petrolina'. O evento contou com shows musicais de artistas locais, como Ana Costa, Fabinho Testado, Diego Souza e Pisadinha de Luxo. </br></br>No início do ano, a comunidade de Petrolina lamentou a perda de importantes figuras locais. Manoel Messias, líder comunitário e ex-presidente da Associação dos Moradores do Bairro Areia Branca, faleceu, deixando uma marca significativa em sua atuação na Comunidade de Ponta da Serra. Além disso, o radialista Zé Maria Silva, conhecido por sua contribuição para a comunicação no Vale do São Francisco, também faleceu aos 77 anos, deixando uma lacuna no cenário comunicativo local. "
 	}
     },
     {
@@ -148,8 +153,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Eleição da Mesa Diretora e projetos do Executivo movimentarão Câmara de Petrolina"]
 		}
 	    ]
 	},
@@ -178,8 +183,12 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "Dr.Magalhães",
+		    content: "Petrolina perdeu no fim desta noite o conhecido médico Dr Magalhães. Ele infartou dentro do seu carro próximo a empresa Bari Automóveis aos 71 anos de idade. </br></br>Informações colhidas pelo Blog dão conta que ele não vinha bem e tinha histórico de problemas cardíacos. Um médico colega pediu, recentemente, que ampliasse os exames cardíacos. </br></br>Natural de Parnamirim (PE), fez história e amigos em Petrolina. O Blog lamenta essa perda. "
+		},
+		{
+		    title: "Sobrinha da ex-vereadora Raimunda Sol Posto",
+		    content: "A Câmara de Vereadores de Petrolina está de luto. Faleceu na madrugada deste sábado (13) a servidora Izanice Nascimento Sol Posto. Ela estava internada na Unidade de Pronto Atendimento (UPA) desde quinta-feira (11), após testar positivo para a Covid-19 na última segunda (8). </br></br>Devido a complicações provocadas pela doença, o quadro de saúde de Izanice agravou-se e, por volta de 1h30 da manhã, ela acabou vindo a óbito. Sobrinha da ex-vereadora Raimunda Sol Posto, Izanice atualmente estava lotada no gabinete do vereador Josivaldo Barros. </br></br>Devido aos protocolos da doença, não houve velório e o sepultamento da servidora às 8h de hoje, no Cemitério Campo das Flores, no túmulo da família."
 		}
 	    ]
 	},
@@ -200,8 +209,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -209,14 +218,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2021 em Petrolina foi marcado por uma série de acontecimentos significativos, começando com a posse do prefeito Miguel Coelho (MDB) e dos 23 vereadores eleitos em 15 de novembro do ano anterior. O início da gestão municipal ocorreu em um período desafiador, caracterizado pela persistência da pandemia de COVID-19. </br></br>No cenário esportivo, a cidade foi anunciada como uma das sedes da etapa do Rally dos Sertões 2021, destacando a importância do evento off-road em solo petrolinense. </br></br>Em relação à situação de saúde pública, Petrolina manteve-se atenta à evolução da pandemia. Em outubro de 2021, o município divulgou dados sobre a COVID-19, registrando 32.119 casos, 31.365 curas e 566 mortes. O enfrentamento da doença envolveu medidas restritivas propostas pelo Ministério da Saúde em parceria com o município. </br></br>Diante do contexto desafiador, a cidade confirmou o cancelamento do São João de 2021, seguindo a tendência de diversas localidades que buscaram evitar aglomerações para conter a propagação do vírus. </br></br>Além disso, o prefeito de Petrolina anunciou o cancelamento das festas de Réveillon e Carnaval, priorizando a segurança da população diante das incertezas e riscos associados à pandemia. Essas decisões refletiram o compromisso das autoridades locais com a proteção da comunidade em um período complexo e desafiador."
 	}
     },
     {
@@ -305,8 +314,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -314,14 +323,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2020 em Petrolina foi marcado por desafios e eventos que refletiram a realidade global. A cidade enfrentou uma alta demanda de internamentos por covid-19, evidenciando os impactos significativos da pandemia na saúde da comunidade. </br></br>A chegada do Carnaval trouxe animação com quatro polos festivos em Petrolina. No entanto, logo em seguida, a Secretaria Municipal de Saúde confirmou o primeiro caso de coronavírus na cidade. A paciente, com histórico de viagem ao exterior, fez o exame em 17 de março, revelando a rápida disseminação da doença. </br></br>O São João de Petrolina, mesmo diante dos desafios da pandemia, reuniu mais de 40 atrações musicais em 9 dias de festa, proporcionando um momento de descontração em meio às dificuldades enfrentadas. </br></br>A Eleição Municipal de 2020, realizada em 15 de novembro (primeiro turno) e 29 de novembro (segundo turno), teve como objetivo eleger um prefeito, um vice-prefeito e 23 vereadores. O atual prefeito, Miguel Coelho, foi reeleito no primeiro turno, demonstrando a preferência da população. </br></br>O Réveillon de 2020 em Petrolina foi celebrado às margens do Rio São Francisco, com a Festa da Virada contando com queima de fogos e atrações musicais. Esses eventos marcaram um ano desafiador para a cidade, destacando a resiliência da comunidade diante das adversidades. </br></br>O ano também foi marcado por tragédias, incluindo o assassinato de Ercílio Freire dos Santos, de 52 anos, irmão do deputado federal Gonzaga Patriota. O crime ocorreu numa manhã de segunda-feira, na Rua 8 do bairro Antonio Cassimiro, em Petrolina, Sertão de Pernambuco. Segundo informações da polícia, a vítima estava no local para visitar um sobrinho quando foi brutalmente assassinada, adicionando um elemento de luto e consternação à comunidade."
 	}
     },
     {
@@ -330,8 +339,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Com definição de calendário eleitoral 2020, expectativas em Petrolina são para rearrumação política no cenário pré-campanha"]
 		}
 	    ]
 	},
@@ -390,8 +399,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -399,14 +408,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2019 iniciou-se com a posse do novo presidente, Jair Bolsonaro, marcando o início de uma nova gestão no país. Em Petrolina, a Prefeitura lançou a programação do São João de 2019, apresentando atrações que animaram o Pátio de Eventos Ana das Carrancas. </br></br>Em março, o Carnaval tomou conta do Sertão de Pernambuco, com festividades em Petrolina, incluindo escola de samba e o desfile da bicharada do Mestre Jaime em Salgueiro. </br></br>O mês de junho, marcado pelas festas juninas, animou as cidades do Sertão de Pernambuco. O cantor Gabriel Diniz, falecido em um acidente de avião em maio, foi homenageado em diversas localidades. </br></br>No aspecto econômico, destacou-se a ocorrência de filas quilométricas para abastecimento com gasolina sem pagar impostos, evidenciando questões tributárias que impactaram a população. </br></br>Um acontecimento histórico ocorreu em Petrolina em 31 de outubro: o julgamento do cangaceiro Virgulino Ferreira da Silva, o Lampião. Mais de 80 anos após sua morte, um projeto acadêmico chamado 'Júri Épico' resultou na condenação do Rei do Cangaço. Esses eventos refletiram a diversidade e intensidade das experiências vividas pela comunidade ao longo desses períodos. </br></br>As celebrações religiosas marcaram o dia de Natal na cidade, com quatro missas ao longo do dia na igreja Matriz, integrante da paróquia Nossa Senhora Rainha dos Anjos. "
 	}
     },
     {
@@ -415,8 +424,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Segundo turno presidencial: soma de abstenções chega a quase 50 mil eleitores em Petrolina e Juazeiro"]
 		}
 	    ]
 	},
@@ -463,15 +472,15 @@ let Content = [
 		{
 		    title: "Vice presidente da ABO, João Carlos Iamauti, morre em Petrolina",
 		    content: "Uma notícia triste pegou a todos de surpresa. De forma repentina, morreu em Petrolina, o vice-presidente da ABO Petrolina, João Carlos Iamauti. Segundo informações, uma diverculite teria sido a causa da morte. O velório acontece neste momento no SAF (av. Sete de Setembro) e o sepultamento está marcado para as 17 horas no cemitério Campo da Paz. Iamauti deixa esposa e três filhos. Nossas condolências à família."
-		}
+		},
 	    ]
 	},
 	inauguracoes: {
 	    type: 5,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -499,7 +508,7 @@ let Content = [
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2018 em Petrolina foi repleto de eventos políticos, culturais e notícias que marcaram a comunidade. Destacam-se momentos políticos importantes, como a presença do presidenciável Fernando Haddad (PT), juntamente com os candidatos à reeleição Paulo Câmara (PSB-PE) e Rui Costa (PT-BA), que trouxeram movimentação política para a cidade. </br></br>Além disso, a visita do então presidente Michel Temer a Petrolina ressaltou a relevância da cidade no cenário político nacional, evidenciando o diálogo entre lideranças nacionais e locais. </br></br>No entanto, o ano também foi marcado por tristezas, com a notícia da morte repentina do vice-presidente da ABO Petrolina, João Carlos Iamauti, causada por uma diverticulite. A comunidade foi surpreendida por essa perda inesperada. </br></br>Outra perda significativa foi a morte do ex-deputado Geraldo Coelho, que ocorreu por volta das 23 horas e 50 minutos. Geraldo, aos 92 anos, teve uma trajetória política marcante, sendo ex-vereador, ex-presidente da câmara municipal, ex-prefeito e ex-deputado por seis mandatos. Seu corpo foi velado na câmara de vereadores de Petrolina e sepultado no cemitério Campo das Flores às 16:00 horas. </br></br>A cultura também teve seu espaço, com o São João de Petrolina 2018, conhecido como São João do Vale, que proporcionou diversidade de ritmos para a população. A celebração do Réveillon na Orla da cidade, com atrações musicais e um show pirotécnico, marcou a chegada do novo ano em um ambiente festivo e acolhedor. </br></br>No entanto, o ano também trouxe tristezas com a notícia do falecimento de Maria José, a primeira mulher vereadora eleita pelo PT em Petrolina, que deixou sua marca na história política da cidade. Essas perdas e conquistas contribuíram para a complexidade e riqueza da experiência vivida em Petrolina ao longo de 2018."
 	}
     },
     {
@@ -508,8 +517,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Artigo do leitor: “Uma breve análise das políticas públicas destinadas às crianças e jovens de Petrolina em 2017″"]
 		}
 	    ]
 	},
@@ -569,14 +578,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: " O desdobramento do ano de 2016 em Petrolina para 2017 foi marcado por eventos políticos e sociais notáveis. A posse do prefeito eleito Miguel Coelho marcou o início do novo governo, inaugurando uma fase de liderança e administração na cidade. </br></br>O lançamento do São João de Petrolina 2017, realizado no Círculo Militar no Centro da cidade, foi um marco cultural. Durante o evento, o prefeito Miguel Coelho anunciou as atrações, destacando o compromisso da administração em promover eventos que celebram a cultura local. </br></br>No entanto, o período também foi marcado por tristes despedidas. O falecimento do vereador Benedito Lacerda de Santa Maria da Boa Vista foi uma perda significativa para a política local. Internado no HGU de Petrolina devido a complicações respiratórias, sua morte foi confirmada por dirigentes do PMDB, partido ao qual era filiado. </br></br>Além disso, a saúde pública enfrentou desafios, com mais de 30 casos de tuberculose notificados em 2017 em Petrolina, destacando a importância da vigilância e do cuidado com a saúde da comunidade. </br></br>A cidade brilhou durante o período natalino com a abertura do Natal Luz e Renovação. Esta iniciativa, inédita em Petrolina, trouxe luzes, emoção e uma programação especial para celebrar o Natal. Autoridades civis e religiosas participaram da cerimônia de abertura, proporcionando uma atmosfera festiva e comemorativa. </br></br>Por fim, a festa de Réveillon em Petrolina ganhou destaque ao ser realizada pela Associação de Barraqueiros e Ambulantes de Eventos do Vale do São Francisco (Abaev) com o apoio da prefeitura e empresários, mesmo após o anúncio do cancelamento por parte da prefeitura. Essa colaboração demonstrou a resiliência da comunidade em celebrar e superar desafios. "
 	}
     },
     {
@@ -677,8 +686,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -693,7 +702,7 @@ let Content = [
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2016 em Petrolina foi marcado por uma série de acontecimentos significativos. A eleição municipal trouxe uma mudança política notável, com o deputado estadual Miguel Coelho assumindo a posição de prefeito. O Carnaval e o São João animaram a cidade, destacando a riqueza cultural local. </br></br>A visita da presidente Dilma Rousseff ressaltou a importância da região no contexto nacional. A virada do ano foi celebrada com festividades animadas na Orla, proporcionando um adeus festivo ao ano que se encerrava. </br></br>No entanto, o ano também foi marcado por perdas significativas. A notícia do falecimento do ex-vereador Nisaldo da Cisagro trouxe um sentimento de luto à comunidade, recordando sua contribuição política nos anos de 1986 e 1987. </br></br>Infelizmente, outra perda ocorreu com a morte da ex-deputada Isabel Cristina em 22 de junho. Professora e filha de Petrolina, ela faleceu após uma cirurgia de risco na cabeça. Sua partida deixou uma lacuna na esfera política e educacional da cidade, sendo lembrada como uma figura importante para a comunidade. Essas perdas destacaram a importância de figuras públicas na construção da história e identidade de Petrolina. "
 	}
     },
     {
@@ -702,8 +711,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Em nova visita a Petrolina, Deputado Raul Jungmann aposta em PPS fortalecido nas eleições 2016"]
 		}
 	    ]
 	},
@@ -763,8 +772,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -772,14 +781,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2015 em Petrolina foi marcado por uma série de eventos e manifestações que refletiram a diversidade e a dinâmica da comunidade local. Manifestantes vestidos de verde e amarelo expressaram seu descontentamento em relação ao governo Dilma e à corrupção, ocupando a Praça Maria Auxiliadora no Centro da cidade. </br></br>À medida que o Carnaval se aproximava, a Prefeitura divulgou a programação para a festividade em três polos distintos, proporcionando aos residentes e visitantes uma celebração animada e diversificada. A cidade se encheu de cores e música durante os dias de folia, marcando uma experiência carnavalesca vibrante e envolvente. </br></br>No São João, o Pátio de Eventos Ana das Carrancas na Zona Norte tornou-se o epicentro de uma celebração tradicional que reuniu a comunidade em torno de música, dança e alegria, destacando a riqueza cultural da região. </br></br>No entanto, o ano também testemunhou momentos de luto e solidariedade. A população de Petrolina e região compareceu em grande número ao velório de Seu Odair, pai do deputado estadual Odacy Amorim, prestando homenagens a um agricultor querido pela comunidade. </br></br>À medida que o Natal se aproximava, a cidade se iluminou com uma deslumbrante decoração que cobriu monumentos e pontos turísticos. Mais de 100 mil metros de luzes coloridas contribuíram para criar uma atmosfera festiva e acolhedora em Petrolina, envolvendo os moradores no espírito natalino. "
 	}
     },
     {
@@ -788,8 +797,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Juiz de Petrolina considera satisfatório resultado do serviço de biometria, mas alerta eleitores"]
 		}
 	    ]
 	},
@@ -797,8 +806,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -823,10 +832,10 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    nome: "nome da pessoa",
-		    noticia: "fulano morreu em...",
-		    foto: "pessoa.png"
+		    title: "Rui Amorim",
+		    content: "Faleceu na manhã desta segunda-feira (29), em Petrolina, o ex-vereador Rui Amorim. Ele tinha 61 anos e enfrentava problemas de saúde provocados pela diabetes.</br></br>Além de ter exercido mandato na Câmara Municipal, Rui foi um dos fundadores do antigo MDB e posteriormente presidente do PMDB de Petrolina."
 		}
+		
 	    ]
 	},
 	inauguracoes: {
@@ -842,14 +851,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O Carnaval de 2014 em Petrolina, no Sertão pernambucano, teve suas atrações confirmadas pela Prefeitura do município. A festividade, realizada no polo Orla entre os dias 26 de fevereiro a 4 de março, adotou o tema \"Folia no Vale dos Vinhos – De frevo a bola tudo rola\". </br></br>Em junho, o São João do Vale animou a cidade no Pátio de Eventos Ana das Carrancas, próximo ao Aeroporto Senador Nilo Coelho, na Zona Norte. O evento, que ocorreu de 21 a 27 de junho, promoveu muita festa e felicidade, destacando-se como uma celebração marcante na região. </br></br>No âmbito político, os eleitores de Petrolina comemoraram o fim da disputa presidencial, marcada pela vitória de Dilma Rousseff, que foi reeleita presidente. O processo eleitoral na cidade foi considerado tranquilo pelo juiz eleitoral. </br></br>Entretanto, o ano também testemunhou a triste notícia do falecimento do ex-vereador Rui Amorim em Petrolina. Com 61 anos e enfrentando problemas de saúde causados pela diabetes, Rui Amorim, além de ter exercido mandato na Câmara Municipal, foi um dos fundadores do antigo MDB e posteriormente presidente do PMDB de Petrolina. </br></br>No Réveillon de 2014, milhares de pessoas acompanharam a queima de fogos na orla da cidade, às margens do Rio São Francisco, encerrando o ano com uma festa animada e festiva."
 	}
     },
     {
@@ -858,8 +867,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Equipe Malhas da Lei prende foragidos da justiça e apreende menores em Petrolina"]
 		}
 	    ]
 	},
@@ -889,8 +898,8 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -898,8 +907,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -907,14 +916,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
-	    ]
+	    ],
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "No início do ano, Petrolina testemunhou a posse do prefeito reeleito Júlio Lóssio, do PMDB, e do vice-prefeito Guilherme Coelho. Essa cerimônia marcou o início de um novo mandato para liderar a cidade. </br></br>Inspirado na célebre citação \"O sertanejo é, antes de tudo, um forte\", do escritor Euclides da Cunha, o São João de Petrolina, no Sertão de Pernambuco, foi celebrado entre os dias 15 e 30 de junho. A festividade destacou-se como um momento de celebração da cultura local, envolvendo a comunidade em diversas atividades. </br></br>Na virada do ano, o Réveillon na orla prometeu 15 minutos de espetáculo pirotécnico em um evento gratuito. Contudo, a festa também implicou em alterações no trânsito na orla de Petrolina, buscando oferecer uma experiência segura e animada para os participantes. Quatro atrações musicais foram escolhidas para animar a virada, proporcionando entretenimento diversificado. </br></br>Infelizmente, o ano também foi marcado pela partida de uma figura ilustre da comunidade. Seu Luiz Novaes, conhecido em Cabrobó como o \"engenheiro das grandes obras\", faleceu aos 91 anos de idade. Sua contribuição para o desenvolvimento da cidade incluiu a participação em projetos emblemáticos, como a quadra de esportes \"O Araújão\" e a construção do estádio de futebol. A história de Luiz Novaes, o tempo se encarregará de contar, preservando assim a memória de suas realizações significativas na região."
 	}
     },
     {
@@ -969,8 +978,8 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "João Batista - Empresário",
+		    content: "Faleceu hoje (28) em Petrolina o empresário João Batista. Pai do empresário João Henrique, ele era figura conhecida na cidade, com mais de 60 anos atuando no ramo. </br></br>Entre as empresas de sua propriedade estão a antiga Noralar e a Cantina Mini-Preço, que marcaram época nos anos 70."
 		}
 	    ]
 	},
@@ -999,8 +1008,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -1008,14 +1017,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "Em 2012, o Carnaval de Petrolina buscou homenagear a vocação econômica da região do Vale do São Francisco e celebrar a cultura festiva de Momo. Sob o tema \"Folia no Vale dos Vinhos: Fantasias de Carnaval no Vale\", o evento prometeu a participação de atrações regionais e nacionais, atraindo famílias inteiras para as ruas e integrando a comunidade. </br></br>No âmbito político, a eleição municipal de Petrolina, realizada em 7 de outubro, resultou na reeleição do prefeito Júlio Lóssio, do PMDB, ainda no primeiro turno, com 45,26% dos votos. Seu principal concorrente, Fernando Filho (PSB), ficou em segundo lugar, seguido por Odacy Amorim (PT) e Rosalvo (PSOL) com as menores votações. </br></br>Além disso, o São João de 2012 em Petrolina ofereceu uma diversidade musical, desde o forró tradicional até o sertanejo, ampliando as opções de entretenimento na cidade. Para aquecer o comércio natalino, uma campanha intitulada \"Natal Encantado 2012\" foi lançada, impulsionando as atividades comerciais durante a temporada festiva. </br></br>Um estudo destacou o crescimento nas vendas de Natal em Petrolina, evidenciando a eficácia das iniciativas para estimular a economia local durante a temporada de festas. O ano de 2012 em Petrolina foi marcado, assim, por eventos culturais, eleições municipais e estratégias para impulsionar a economia regional. "
 	}
     },
     {
@@ -1024,8 +1033,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Exército Brasileiro e Polícia Rodoviária Federal flagram uso irregular de explosivos em Petrolina"]
 		}
 	    ]
 	},
@@ -1046,8 +1055,8 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "Morre em Petrolina mãe do diretor do Iterpe",
+		    content: "Faleceu ontem (03) por volta das 20h, no Hospital de Urgências e Traumas (HUT), em Petrolina, Odete Carnaúba. Ela era mãe do diretor do Instituto de Terras e Reforma Agrária de Pernambuco (Iterpe), José Estevo Mantena (foto). </br></br>O corpo da mãe de Mantena seguiu para sua cidade, Lagoa Grande (PE), onde será velado. O sepultamento está marcado para amanhã (05), as 9h."
 		}
 	    ]
 	},
@@ -1073,14 +1082,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "O ano de 2011 em Petrolina foi marcado por uma série de acontecimentos significativos. Infelizmente, iniciou-se com a trágica notícia do falecimento do respeitado médico ginecologista e obstetra, Dr. Carlos Inácio Leal Borges, conhecido como Dr. Leal, vítima de infarto em Juazeiro. Sua partida deixou um vazio na comunidade médica local, onde era ativo em clínica particular, sócio do Hospital Memorial de Petrolina e membro do Conselho de Administração da Unimed Vale do São Francisco. </br></br>Por outro lado, o setor agrícola viu um desenvolvimento positivo com o lançamento da 1ª Feira Permanente de Frutas e Hortaliças Orgânicas do Vale. Uma colaboração entre Codevasf, Consea Orgânico e o Ministério da Agricultura e Pesquisa Agropecuária (MAPA) promoveu o evento em Petrolina, fortalecendo a produção orgânica na região. </br></br>O calendário de eventos destacou-se com a divulgação dos festejos juninos, programados para ocorrerem de 22 a 30 de junho, apresentando atrações de renome nacional e regional. A cidade consolidou-se como um polo junino de destaque em Pernambuco. </br></br>Entretanto, também houve preocupações sérias com as obras da transposição do Rio São Francisco, conforme denunciado no Relatório da Missão à Petrolina e região pela Plataforma Dhesca Brasil – Rede Nacional de Direitos Humanos. Violações de direitos humanos, como a falta de água potável, ausência de titulação e demarcação de terras para quilombolas e indígenas, além de carências em infraestrutura básica, foram reveladas, evidenciando desafios sociais na região."
 	}
     },
     {
@@ -1089,8 +1098,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Eleição na Câmara de Petrolina promete fortes emoções"]
 		}
 	    ]
 	},
@@ -1111,8 +1120,8 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "José Antonio Gomes - Pai do ex vice-prefeito Marco Antônio Gomes",
+		    content: "Foi enterrado há poucos instantes o corpo do senhor José Antonio Gomes, pai do ex vice-prefeito Marco Antônio Gomes. O corpo foi velado na Câmara de Vereadores de Petrolina e o enterro aconteceu no cemitério Campo das Flores."
 		}
 	    ]
 	},
@@ -1137,8 +1146,8 @@ let Content = [
 	    type: 7,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
@@ -1146,14 +1155,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "Em 2010, Petrolina foi palco da Fenagri, a maior feira de fruticultura irrigada da América Latina. O evento, que começou nesse ano, é reconhecido por seu papel central no setor, adotando o slogan \"Os frutos dos novos negócios\". A cidade consolidou-se como um hub significativo para o agronegócio, destacando a importância da agricultura irrigada na região. </br></br>No mesmo ano, o Censo 2010 registrou em Petrolina quase 300 mil habitantes, atingindo a marca de 294.081 pessoas, muito próxima das expectativas. Um dado curioso revelado pela pesquisa é a disparidade de gênero, com quase 8 mil mulheres a mais do que homens. O município conta com 143.283 habitantes do sexo masculino e 150.798 do sexo feminino. </br></br>Além disso, a Secretaria de Desenvolvimento Econômico, Turismo e Eventos de Petrolina desempenhou um papel crucial na transformação do São João da cidade. Em 2010, a festividade à margem do rio São Francisco foi ampliada para quatro dias, consolidando-se como um dos maiores polos juninos de Pernambuco. Essa iniciativa contribuiu para fortalecer a identidade cultural da cidade e atrair visitantes de diversas regiões."
 	}
     },
     {
@@ -1162,8 +1171,8 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Outros",
+		    content: ["Secretaria da Mulher de Petrolina comemora três anos da Lei Maria da Penha"]
 		}
 	    ]
 	},
@@ -1188,8 +1197,8 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "Motoqueiro morre em acidente com carro na BR-428",
+		    content: "Um motoqueiro morreu em uma colisão frontal com um carro na rodovia federal BR-428, no município de Petrolina, Sertão pernambucano. O acidente ocorreu na madrugada deste domingo (18), por volta das 0h30, na altura do quilômetro 185 da estrada. </br></br>A Polícia Rodoviária Federal (PRF) informou que José Ribamar dos Santos Souza, 22 anos, morreu no local. A passageira da moto e o motorista do outro veículo ficaram feridos e foram socorridos para o Hospital Dom Malan, em Petrolina. </br></br>Nas últimas 24 horas, a PRF registrou nove acidentes, envolvendo 16 veículos e deixando cinco feridos e um morto. "
 		}
 	    ]
 	},
@@ -1219,14 +1228,14 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    title: "",
+		    content: ""
 		}
 	    ]
 	},
 	resumo: {
 	    type: 1,
-	    content: "um resumo do ano"
+	    content: "Em 1º de janeiro de 2009, Júlio Lóssio assumiu o cargo de prefeito e Domingos Savio o de vice-prefeito em Petrolina. O São João da cidade, realizado no Bodódromo, bairro Areia Branca, destacou-se sob o lema \"Festa em todo lugar\" durante o mês de junho. </br></br>Em 1º de janeiro de 2009, Júlio Lóssio assumiu o cargo de prefeito e Domingos Savio o de vice-prefeito, marcando o início de uma nova gestão no município de Petrolina. No mês de junho, Petrolina celebrou o São João com o lema \"Festa em todo lugar\", realizando os festejos no Bodódromo, no bairro Areia Branca. </br></br>Fora isso, nesse mesmo ano houve avanços na agricultura local, a Embrapa apresentou uma pesquisa inovadora sobre o cultivo de caqui, apontando para seu potencial benefício aos agricultores do semiárido, especialmente em tempos de crise. </br></br>Ao longo do ano, uma discussão relevante permeou a cidade: a privatização da Facape (Faculdade de Ciências Aplicadas e Sociais de Petrolina), gerando debates e reflexões sobre o futuro da instituição educacional. No final do ano, as luzes do Natal invadiram Petrolina. A decoração chama atenção de quem passou à noite pela orla fluvial, um dos locais que receberam o ornamento. </br></br>A fachada da prefeitura municipal, na Avenida Guararapes, foi decorada com luzes coloridas, resultando num belo efeito visual. As praças do Centro da cidade (Dom Malan, Maria Auxiliadora e 21 de setembro) também ganharam ornamentação, fazendo muitos pedestres terem um motivo a mais para sentar nos bancos e apreciar a beleza natalina. "
 	}
     },
     {

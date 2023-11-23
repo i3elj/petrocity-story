@@ -180,16 +180,14 @@ function buildUI(state)
 	    let section = document.createElement('section')
 	    let ul = document.createElement('ul')
 	    let sectionTitle = document.createElement('h3')
-	    
-	    if (element.tipo == "Vereadores")
-	    {
+
+	    switch (element.tipo) {
+	    case "Vereadores":
 		sectionTitle.textContent = element.tipo + " eleitos"
 		element.content.forEach(vereador => {
 		    let vereadorElement = document.createElement('li')
 		    vereadorElement.innerText = `Vereador: ${vereador.nome}`
 		    vereadorElement.innerText += `, partido: (${vereador.partido})`
-
-		    console.log(vereador)
 
 		    if (vereador.votos != null)
 			vereadorElement.innerText += `, votos: ${vereador.votos}`
@@ -198,15 +196,21 @@ function buildUI(state)
 		    
 		    ul.appendChild(vereadorElement)
 		})
-	    }
-	    else if (element.tipo == "Prefeito")
-	    {
+		break;
+	    case "Prefeito":
 		sectionTitle.textContent = element.tipo + " eleito"
 		let prefeito = document.createElement('li')
 		prefeito.textContent = `${element.content.nome} ganhou por ${element.content.votos} com ${element.content.percent} de aceitação. Seu vice foi ${element.content.vice}.`
 		ul.appendChild(prefeito)
+		break;
+	    case "Outros":
+		sectionTitle.textContent = element.tipo
+		element.content.forEach(outro => {
+		    let outroElement = document.createElement('li')
+		    outroElement.textContent = outro
+		    ul.appendChild(outroElement)
+		})
 	    }
-	    
 
 	    section.appendChild(sectionTitle)
 	    section.appendChild(ul)
