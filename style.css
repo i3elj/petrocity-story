@@ -224,7 +224,7 @@ input:checked + span {
     display: flex;
     flex-direction: column;
     gap: 26px;
-    padding: 80px;
+    padding: 40px;
     text-align: justify;
 }
 
@@ -240,6 +240,10 @@ input:checked + span {
 }
 
 #info-content > section > ul {
-    padding: 0 80px;
+    padding-left: 40px;
+}
+
+#info-content > section > ul > li {
+    text-align: start;
 }
 

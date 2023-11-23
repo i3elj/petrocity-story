@@ -4,23 +4,25 @@ class Categories {
     static ATRACOES = 3;
     static OBITUARIO = 4;
     static INAUGURACOES = 5;
-    static ESTATISTICAS = 6;
+    static PERSONALIDADES = 6;
+    static VISITAS = 7;
     
     static categoryMap = [[ "resumo", this.RESUMO ],
-			[ "politica", this.POLITICA ],
-			[ "atracoes", this.ATRACOES ],
-			[ "obituario", this.OBITUARIO ],
-			[ "inauguracoes", this.INAUGURACOES ],
-			[ "estatisticas", this.ESTATISTICA ]];
+			  [ "politica", this.POLITICA ],
+			  [ "atracoes", this.ATRACOES ],
+			  [ "obituario", this.OBITUARIO ],
+			  [ "inauguracoes", this.INAUGURACOES ],
+			  [ "personalidades", this.PERSONALIDADES ],
+			  [ "visitas", this.VISITAS ]];
 
-    static get(str) {
-	return this.categoryMap.filter((v) => v[0] == str)[0][1]
-    }
+    static get = str => this.categoryMap.filter((v) => v[0] == str)[0][1]
 }
 
 let UITypes = {
     TEXT: 1,
-    BULLETPOINTS: 2
+    SECTIONS: 2,
+    STATS: 3,
+    POLITICA: 4
 }
 
 let ProgramState = {
@@ -56,53 +58,56 @@ function toggleInfoState(state)
 }
 
 //--- content functions ---//
-async function loadFile(state, file)
+function loadFile(state)
 {
-    const res = await fetch(file)
-    state.fileContent = await res.json()
+    state.fileContent = Content
 }
 
-async function loadYear(state, year)
+function loadYear(state, year)
 {
     state.selectedYear = Number(year)
-    state.yearContent = await state.fileContent
-	.filter(v => v.ano == state.selectedYear)[0]
+    state.yearContent = state.fileContent.filter(v => v.ano == state.selectedYear)[0]
     changeUIYear(state)
 }
 
-async function loadCategory(state, category)
+function loadCategory(state, category)
 {
     state.selectedCategory = category
     switch (state.selectedCategory) {
     case Categories.RESUMO:
-	state.categoryContent = await state.yearContent.resumo
+	state.categoryContent = state.yearContent.resumo
 	state.uiType = UITypes.TEXT
 	state.categoryReadableName = "Resumo"
 	break
     case Categories.POLITICA:
-	state.categoryContent = await state.yearContent.politica
-	state.uiType = UITypes.BULLETPOINTS
+	state.categoryContent = state.yearContent.politica
+	state.uiType = UITypes.POLITICA
 	state.categoryReadableName = "Política"
 	break
     case Categories.ATRACOES:
-	state.categoryContent = await state.yearContent.atracoes
-	state.uiType = UITypes.BULLETPOINTS
+	state.categoryContent = state.yearContent.atracoes
+	state.uiType = UITypes.SECTIONS
 	state.categoryReadableName = "Atrações"
 	break
     case Categories.OBITUARIO:
-	state.categoryContent = await state.yearContent.obituario
-	state.uiType = UITypes.BULLETPOINTS
+	state.categoryContent = state.yearContent.obituario
+	state.uiType = UITypes.SECTIONS
 	state.categoryReadableName = "Obituário"
 	break
     case Categories.INAUGURACOES:
-	state.categoryContent = await state.yearContent.inauguracoes
-	state.uiType = UITypes.BULLETPOINTS
+	state.categoryContent = state.yearContent.inauguracoes
+	state.uiType = UITypes.SECTIONS
 	state.categoryReadableName = "Inaugurações"
 	break
-    case Categories.ESTATISTICAS:
-	state.categoryContent = await state.yearContent.estatisticas
-	state.uiType = UITypes.BULLETPOINTS
-	state.categoryReadableName = "Estatísticas"
+    case Categories.PERSONALIDADES:
+	state.categoryContent = state.yearContent.personalidades
+	state.uiType = UITypes.SECTIONS
+	state.categoryReadableName = "Personalidades"
+	break
+    case Categories.VISITAS:
+	state.categoryContent = state.yearContent.visitas
+	state.uiType = UITypes.SECTIONS
+	state.categoryReadableName = "Visitas"
 	break
     }
 }
@@ -118,7 +123,7 @@ function buildUI(state)
     switch (state.uiType) {
     case UITypes.TEXT:
 	let resumo = document.createElement('p')
-	resumo.textContent = state.yearContent.resumo.content
+	resumo.innerHTML = state.yearContent.resumo.content
 	contentContainer.appendChild(resumo)
 
 	state.infoContainer.appendChild(state.closeBtn)
@@ -126,16 +131,85 @@ function buildUI(state)
 	state.infoContainer.appendChild(contentContainer)
 	break
 
-    case UITypes.BULLETPOINTS:
+    case UITypes.SECTIONS:
 	state.categoryContent.content.forEach((element, index, array) => {
 	    let section = document.createElement('section')
 	    let title = document.createElement('h3')
 	    title.textContent = element.title
 	    let p = document.createElement('p')
-	    p.textContent = element.content
+	    p.innerHTML = element.content
 	    
 	    section.appendChild(title)
 	    section.appendChild(p)
+	    contentContainer.appendChild(section)
+	})
+
+	state.infoContainer.appendChild(state.closeBtn)
+	state.infoContainer.appendChild(title)
+	state.infoContainer.appendChild(contentContainer)
+	break
+
+    case UITypes.STATS:
+	let section = document.createElement('section')
+	let natalidade = document.createElement('h3')
+	natalidade.textContent = "Natalidade: 20"
+	let mortalidade = document.createElement('h3')
+	mortalidade.textContent = "Mortalidade: 30"
+	let criminalidade = document.createElement('h3')
+	criminalidade.textContent = "Criminalidade: 10"
+	let escolaridade = document.createElement('h3')
+	escolaridade.textContent = "Escolaridade: 43"
+	let populacao = document.createElement('h3')
+	populacao.textContent = "População: 20000"
+
+	section.appendChild(natalidade)
+	section.appendChild(mortalidade)
+	section.appendChild(criminalidade)
+	section.appendChild(escolaridade)
+	section.appendChild(populacao)
+	contentContainer.appendChild(section)
+	
+	state.infoContainer.appendChild(state.closeBtn)
+	state.infoContainer.appendChild(title)
+	state.infoContainer.appendChild(contentContainer)
+	break;
+
+    case UITypes.POLITICA:
+	let content = state.categoryContent.content
+	content.forEach(element => {    
+	    let section = document.createElement('section')
+	    let ul = document.createElement('ul')
+	    let sectionTitle = document.createElement('h3')
+	    
+	    if (element.tipo == "Vereadores")
+	    {
+		sectionTitle.textContent = element.tipo + " eleitos"
+		element.content.forEach(vereador => {
+		    let vereadorElement = document.createElement('li')
+		    vereadorElement.innerText = `Vereador: ${vereador.nome}`
+		    vereadorElement.innerText += `, partido: (${vereador.partido})`
+
+		    console.log(vereador)
+
+		    if (vereador.votos != null)
+			vereadorElement.innerText += `, votos: ${vereador.votos}`
+		    if (vereador.percent != null)
+			vereadorElement.innerText += `, porcentagem de aceitação: ${vereador.percent}`
+		    
+		    ul.appendChild(vereadorElement)
+		})
+	    }
+	    else if (element.tipo == "Prefeito")
+	    {
+		sectionTitle.textContent = element.tipo + " eleito"
+		let prefeito = document.createElement('li')
+		prefeito.textContent = `${element.content.nome} ganhou por ${element.content.votos} com ${element.content.percent} de aceitação. Seu vice foi ${element.content.vice}.`
+		ul.appendChild(prefeito)
+	    }
+	    
+
+	    section.appendChild(sectionTitle)
+	    section.appendChild(ul)
 	    contentContainer.appendChild(section)
 	})
 
@@ -224,12 +298,9 @@ function toggleClass(selector, classname)
     document.querySelector(selector).classList.toggle(classname)
 }
 
-(async function() {
-    await loadFile(ProgramState, './content.json')
-    await loadYear(ProgramState, 1870)
-    await loadCategory(ProgramState, Categories.RESUMO)
-})()
-
+loadFile(ProgramState)
+loadYear(ProgramState, 1870)
+loadCategory(ProgramState, Categories.RESUMO)
 cleanUI(ProgramState)
 createCloseBtn(ProgramState)
 
@@ -256,9 +327,9 @@ document.querySelectorAll(".yearscroll-item input").forEach((element, i, a) => {
     element.addEventListener('click', event => {
 	let selectedYear = event.target.value
 	loadYear(ProgramState, selectedYear)
-	    .then(_ => loadCategory(ProgramState, ProgramState.selectedCategory))
-	    .then(_ => { cleanUI(ProgramState)
-			 buildUI(ProgramState) })
+	loadCategory(ProgramState, ProgramState.selectedCategory)
+	cleanUI(ProgramState)
+	buildUI(ProgramState)
     })
 })
 
@@ -269,14 +340,14 @@ document.querySelectorAll(".menu-item input").forEach((element, i, a) => {
 	let selectedCategory = Categories.get(event.target.value)
 
 	loadCategory(ProgramState, selectedCategory)
-	    .then(() => {
-		if (ProgramState.infoIsOpen) {
-		    toggleInfo(ProgramState)
-		} else {
-		    buildUI(ProgramState)
-		    openInfo()
-		    toggleInfoState(ProgramState)
-		}
-	    })
+	
+	if (ProgramState.infoIsOpen) {
+	    toggleInfo(ProgramState)
+	} else {
+	    cleanUI(ProgramState)
+	    buildUI(ProgramState)
+	    openInfo()
+	    toggleInfoState(ProgramState)
+	}
     })
 })

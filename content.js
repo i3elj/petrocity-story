@@ -10,6 +10,7 @@ let Content = [
 		}
 	    ]
 	},
+
 	atracoes: {
 	    type: 3,
 	    content: [
@@ -44,14 +45,6 @@ let Content = [
 		    content: "Mais infraestrutura e qualidade de vida para os moradores do bairro Pedra Linda, em Petrolina. O prefeito Simão Durando entregou, nesta quarta-feira (18), cinco ruas asfaltadas na localidade. Através da soma de recursos que totalizam mais de R$ 1,8 milhão, a comunidade localizada na Zona Oeste, foi beneficiada com mais de 1,5 km de vias pavimentadas. Além da implantação de pavimento asfáltico nas ruas 36, 38, 39 e 44, o bairro também foi beneficiado com a duplicação da Avenida Francisco Avelino dos Santos. A ação faz parte de uma parceria da Prefeitura com a CODEVASF e Caixa Econômica."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -100,11 +93,11 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "Morre em Petrolina Manoel Messias, \"Seu Messias do Trevo\"",
+		    title: "Manoel Messias",
 		    content: "Morreu em Petrolina o líder comunitário Manoel Messias de Oliveira. Ele foi presidente da Associação dos Moradores do Bairro Areia Branca e teve atuação marcante na Comunidade de Ponta da Serra. Muito popular e conhecido por ser um dos seguranças da extinta Boate Trevo e por isto ganhou o apelido de ‘Seu Messias do Trevo’.Messias Oliveira era aposentado da Policia Militar de Pernambuco. Uma de suas paixões era jogos de futebo onde atuou como arbitro em diversos jogos. Seu Messias faleceu de parada cardíaca.  Recentemente ele havia perdido uma filha por Covid-19. O corpo de Seu Messias será velado no SAF da Avenida Sete de Setembro, das 10h às 17h de hoje (17). O sepultamento ocorrerá no Cemitério Campo das Flores, às 17h."
 		},
 		{
-		    title: "Morre em Petrolina (PE) o radialista Zé Maria Silva ",
+		    title: "Zé Maria Silva",
 		    content: "A comunicação no Vale do São Francisco começa esta quinta-feira (03) com uma notícia muito triste: O falecimento do radialista, produtor musical e comunicador popular José Maria Silva, 77 anos. José Maria Silva conhecido popularmente como Zé Maria ou ZÉ Maria Toca Tudo trabalhava na rádio Grande Rio Am e era também apresentador do Vale da sorte. Ele também passou por várias emissoras de rádio na região e foi responsável por inúmeros shows de grandes artistas nacionais em Juazeiro e Petrolina. Segundo familiares Zé Maria passou mal e morreu vítima de um infarto fulminante. Aos familiares, amigos e admiradores os votos de pesar de toda equipe da Rede GN."
 		}
 	    ]
@@ -113,7 +106,7 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "Casa de Cambraia é entregue após reforma em Petrolina",
+		    title: "Casa de Cambraia",
 		    content: " A Casa de Cambraia ‘Dona Maria e Zé Miúdo’, um tradicional espaço de produção e venda de iguaria de tapioca, um dos ingredientes mais versáteis da cozinha pernambucana, foi reformulada e ampliada. Nesta quarta-feira (30), a prefeitura inaugurou o novo espaço, que é mais um equipamento turístico para Petrolina. De acordo com o secretário de Desenvolvimento Econômico e Turismo, Jorge Assunção, o lugar agora conta com um espaço de atendimento, produção, administração e armazenamento de produtos, o antigo local onde as produções eram feitas se tornou um memorial de visitação. “Agora sim temos mais um novo ponto turístico no município. O prefeito Miguel Coelho está de parabéns por incentivar e preservar a cultura desse patrimônio. Além disso, o equipamento vai melhorar o poder de venda para as pessoas que trabalham lá”, frisou Jorge. “Ficou tudo lindo e aconchegante. Vamos poder receber os turistas com mais conforto, além de aumentar a nossa produção e comercialização dos produtos”, frisou dona Marta Maria, uma das comerciantes que tira o sustento de sua casa há 27 anos trabalhando no local. A Casa de Cambraia funciona de segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 12h. O espaço está localizado na Rua 16, em frente à Praça do bairro Jardim Amazonas."
 		},
 		{
@@ -125,14 +118,6 @@ let Content = [
 		    content: "Direito constitucional e universal, a Educação tem sido uma das grandes prioridades para a Prefeitura de Petrolina. Por meio da Secretaria de Educação, Cultura e Esportes, diversas unidades de ensino estão sendo reformadas e ampliadas por todo o município. Um desses investimentos foi realizado na Escola Municipal Governador Miguel Arraes de Alencar, no bairro Vila Vitória. A instituição foi totalmente adequada fisicamente, para se tornar Escola de Tempo Integral e será inaugurada nesta quinta-feira(07), às 18h30. Esta será a 6ª unidade entregue pela gestão municipal, do total de 15 escolas de tempo integral, previstas, dentro do plano de Governo. Cinco já foram entregues para a população, a exemplo das unidades: Anézio Leão, São Domingos Sávio, Juarez Canejo, Monsenhor Bernardino e Paul Harris. Com um investimento de R$ 307 mil em recursos próprios, a Escola de Tempo Integral Miguel Arraes ganhou um refeitório coberto com telhado termoacústico, foram realizadas também reforma dos laboratórios e depósito, climatização de todas as salas de aula, revisão elétrica e do telhado e pintura geral. Com estrutura ampla, a unidade passa a contar com ambientes educativos ainda mais apropriados para o atendimento dos 292 estudantes, do 1º ao 5º ano do ensino fundamental e profissionais de educação, seguindo as condições legais de infraestrutura para o atendimento do projeto. “É a realização de um sonho inaugurar mais uma Escola de Tempo Integral. O prefeito Simão Durando está investindo no futuro da nossa gente, por isso, não está medindo esforços para deixar as unidades escolares em perfeitas condições e segurança para a comunidade escolar, além de apostar no ensino de tempo integral, para qualificar ainda mais a educação de Petrolina. Esse é mais um passo concreto da Cidade Inteligente que Petrolina está se tornando”, afirmou o secretário de Educação, Cultura e Esportes, Plínio Amorim."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -148,7 +133,7 @@ let Content = [
 	    content: [
 		{
 		    title: "Visita de Bolsonaro a Petrolina",
-		    content: "O candidato à presidência da República Jair Bolsonaro (PL) volta a Pernambuco, hoje pela manhã, para cumprir agenda em Petrolina, no Sertão, com uma “esticada” até Juazeiro, a cidade vizinha, no norte da Bahia. O presidenciável retorna a Pernambuco dez dias após visitar Santa Cruz do Capibaribe, Toritama, Caruaru e Garanhuns, no Agreste pernambucano. </br>O candidato comandará uma motociata que vai sair do Pátio Ana das Carrancas, em Petrolina, por volta das 9h, em direção ao centro da cidade. O trajeto continua pela Ponte Presidente Dutra até chegar a Juazeiro, na Lagoa de Calú. Ao término, Bolsonaro retorna a Petrolina para almoçar no Bodódromo, complexo gastronômico com restaurantes cuja espeialidade é a carne de bode."
+		    content: "O candidato à presidência da República Jair Bolsonaro (PL) volta a Pernambuco, hoje pela manhã, para cumprir agenda em Petrolina, no Sertão, com uma “esticada” até Juazeiro, a cidade vizinha, no norte da Bahia. O presidenciável retorna a Pernambuco dez dias após visitar Santa Cruz do Capibaribe, Toritama, Caruaru e Garanhuns, no Agreste pernambucano. </br></br>O candidato comandará uma motociata que vai sair do Pátio Ana das Carrancas, em Petrolina, por volta das 9h, em direção ao centro da cidade. O trajeto continua pela Ponte Presidente Dutra até chegar a Juazeiro, na Lagoa de Calú. Ao término, Bolsonaro retorna a Petrolina para almoçar no Bodódromo, complexo gastronômico com restaurantes cuja espeialidade é a carne de bode."
 		}
 	    ]
 	},
@@ -202,7 +187,7 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "Inauguração da Casa das Arretadas",
+		    title: "Casa das Arretadas",
 		    content: "Projeto ‘Casa das Arretadas’ que acolhe empreendedoras do Vale do São Francisco será inaugurado hoje (10), às 17 horas através de uma live – e será imperdível. Parabéns e sucesso a todas as participantes, em especial para a idealizadora, fundadora e CEO do projeto, Luana Trindade (foto), uma arretada e tanto. Localizado na cidade de Petrolina, em Pernambuco, o espaço colaborativo é uma iniciativa para desenvolver negócios, viabilizar a comercialização e valorização de produtos produzidos e comercializados na região. Preparado para promover encontros e network, de acordo com a organização do projeto, o local foi adaptado pensado com segurança e cumprindo os protocolos, por causa da pandemia."
 		},
 		{
@@ -210,14 +195,6 @@ let Content = [
 		    content: "Enxergando a área do Balneário do Roçado, área ribeirinha de Petrolina, com forte potencial para se tornar um equipamento turístico, o vice-prefeito, Simão Durando, esteve ontem (08) no local para primeira reunião com alguns comerciantes. O intuito foi estabelecer um primeiro contato para estimular o empreendedorismo e buscar capacitações que viabilizem o fortalecimento das atividades e assim atrair clientela local, como também de turistas de outras regiões. Além do vice-prefeito, estiveram presentes o secretário de Desenvolvimento Econômico e Turismo, Flávio Guimarães, o secretário executivo de Desenvolvimento Econômico e Turismo, Thiago Brito, a diretora-presidente da AGE Petrolina, Patrícia Souza, o assessor especial, Ronaldo Cancão e a gestora regional do SEBRAE, Josiana Ferreira. Junto aos donos dos 11 restaurantes do Balneário, os secretários e gestores puderam apresentar propostas de capacitações, linhas de financiamento para ajustes e readequações dos empreendimentos para torná-los mais atrativos e assim serem incluídos na rota turística da Califórnia Sertaneja. Para Simão Durando, a missão do gestor público é tentar promover o empreendedorismo e a geração de emprego e renda na cidade. Enxergar um grande potencial turístico no Balneário do Roçado onde, com o incentivo certo e a preparação adequada a área ribeirinha, se tornará uma das grandes rotas turísticas mais procuradas de Petrolina. “Promovemos o encontro com os comerciantes, para que eles possam ser capacitados para receber bem o turista que visita nossa Petrolina. Capacitá-los na preparação de pratos, no bom atendimento e na qualidade dos serviços, como também na captação de créditos para que eles possam melhorar o seu ambiente de trabalho. Temos a absoluta certeza que essa parceria entre a Prefeitura de Petrolina e os comerciantes da área ribeirinha dará muito certo!”, celebrou Simão. De acordo com o garçom e familiar de um dos proprietários, Pedro Victor, o espaço tem uma profunda capacidade de entretenimento, com uma amplitude de território que já tem sido utilizada para prática de esportes aquáticos. Agora, depois desse primeiro diálogo, aguarda que os planos de fato deem certo. “Tudo vem de mãos dadas com o apoio da gestão pública como sinalização, marketing, mídia, capacitações dos garçons e dos empreendedores do local para que eles tenham uma boa saúde financeira. A partir disso nós conseguiremos atender toda a demanda que a própria cidade de Petrolina nos envia. Então, nós precisamos da equipe da gestão pública atual, e precisamos também do empenho dos trabalhadores daqui da região e nesse conjunto tudo irá funcionar bem, com força de vontade, planejamento e visão a longo prazo”, ressaltou Pedro."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -248,8 +225,36 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Prefeito",
+		    content: { nome: "Miguel Coelho", vice: "Simão Amorim Durando Filho", votos: "121.300", percent: "76,19%" }
+		},
+		{
+		    tipo: "Vereadores",
+		    content: [
+			{ nome: "Manoel da Acosap", partido: "DEM", votos: "3.755", percent: null },
+			{ nome: "Gaturiano Cigano", partido: "DEM", votos: "3.746", percent: null },
+			{ nome: "Gilberto Melo", partido: "DEM", votos: "3.706", percent: null },
+			{ nome: "Edilsão do Trânsito", partido: "MDB", votos: "3.511", percent: null },
+			{ nome: "Major Enfermeiro", partido: "MDB", votos: "3.388", percent: null },
+			{ nome: "Maria Elena", partido: "MDB", votos: "3.268", percent: null },
+			{ nome: "Zenildo do Alto do Cocar", partido: "MDB", votos: "3.257", percent: null },
+			{ nome: "Aero Sim", partido: "MDB", votos: "3.196", percent: null },
+			{ nome: "Osório Siqueira", partido: "MDB", votos: "3.088", percent: null },
+			{ nome: "Wenderson Batista", partido: "DEM", votos: "3.011", percent: null },
+			{ nome: "Ronaldo Silva", partido: "DEM", votos: "2.475", percent: null },
+			{ nome: "Marquinhos do N Quatro", partido: "PODE", votos: "2.196", percent: null },
+			{ nome: "Elismar Gonçalves", partido: "PODE", votos: "2.041", percent: null },
+			{ nome: "Alex de Jesus", partido: "Republicanos", votos: "1.824", percent: null },
+			{ nome: "Professor Gilmar Santos", partido: "PT", votos: "1.735", percent: null },
+			{ nome: "Marquinhos Amorim", partido: "Republicanos", votos: "1.615", percent: null },
+			{ nome: "Rodrigo Araújo", partido: "Republicanos", votos: "1.562", percent: null },
+			{ nome: "Capitão Alencar", partido: "Patriota", votos: "1.539", percent: null },
+			{ nome: "Josivaldo Barros", partido: "PSC", votos: "1.520", percent: null },
+			{ nome: "Ruy Wanderley", partido: "PSC", votos: "1.450", percent: null },
+			{ nome: "Samara da Visão", partido: "PSD", votos: "1.269", percent: null },
+			{ nome: "Diogo Hoffmann", partido: "PSC", votos: "1.214", percent: null },
+			{ nome: "Junior Gás", partido: "AVANTE", votos: "1.183", percent: null },
+		    ]
 		}
 	    ]
 	},
@@ -257,15 +262,15 @@ let Content = [
 	    type: 3,
 	    content: [
 		{
-		    title: "Carnaval de Petrolina",
+		    title: "Carnaval",
 		    content: "Programação de Carnaval de Petrolina é divulgada em coletiva de imprensa pelo prefeito Miguel Coelho. — Foto: Emerson Rocha A programação do carnaval de Petrolina, no Sertão de Pernambuco, foi divulgada nesta quinta-feira (6), pelo prefeito da cidade, Miguel Coelho, durante coletiva de imprensa. Este ano, a festa será realizada entre os dias 22 e 25 de fevereiro, com o tema \"Seja sua fantasia\". Presença marcante nos carnavais de Petrolina, o folião Eribaldo Bezerra será o grande homenageado da festa. Nascido em Caruaru, Eribaldo mora em Petrolina há 58 anos. Apaixonado por cinema, ele sempre desfila nas ruas da cidade fantasiado de Carlito, o personagem mais famoso da carreira de Charlie Chaplin."
 		},
 		{
-		    title: "São João de Petrolina 2020",
+		    title: "São João",
 		    content: "O São João de Petrolina 2020 já está confirmado, e pretende trazer pessoas de diversos lugares do Brasil para dentro desta grande festa junina. Porém, a festa será oficialmente adiada, devido ao Corona Vírus (COVID-19). A decisão foi tomada pelo Prefeito Miguel Coelho em um pronunciamento nas redes sociais. Além da nova notícia, Miguel também comentou as alterações na rotina do transporte público, campanhas de voluntariado e doações de mantimentos. “Muita gente vinha nos cobrando uma resposta e decidimos adiar enquanto houver situação de emergência. Nosso foco precisa estar todo voltado para essa luta. Então, vamos adiar sem previsão e priorizar os investimentos na saúde”, disse o Prefeito. Continue acompanhando a página para ficar por dentro da nova data do São João de Petrolina que deverá ser divulgada nos próximos meses, juntamente com outras novidades. A festa do São João de Petrolina 2020, também conhecida como São João do Vale, anualmente mescla ritmos como o axé, arrocha, sertanejo universitário e o forró. A nova edição do evento já está acontecendo, acompanhada de grandes atrações nacionais e muita tradição."
 		},
 		{
-		    title: "Réveillon 2020 em Petrolina",
+		    title: "Réveillon",
 		    content: "Em Petrolina, como nos últimos anos, a chegada de 2020 será celebrada às margens do Velho Chico. Este ano, o tradicionalmente réveillon realizado na Porta do Rio, será numa terça-feira. A programação divulgada pela prefeitura municipal terá muito forró. Três atrações serão responsáveis pela animação do evento, que começa a partir das 20h. A abertura da noite fica por conta de Elisson Castro. Em seguida, Victor Fernandes que ficou conhecido por gravar o clipe da música “Bebe e vem me procurar” com Wesley Safadão dará continuidade à festa. Encerrando a noite, sobe ao palco a banda Magníficos com o forró das antigas para os apaixonados. A segurança do evento fica por conta da Guarda Civil Municipal, Polícia Militar, segurança privada, Ammpla, Samu e Corpo de Bombeiros. O Réveillon está sendo organizado pela Prefeitura de Petrolina, em parceria com Associação de Barraqueiros e Eventos do Vale do São Francisco (Abaev)."
 		}
 	    ]
@@ -274,7 +279,7 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "Morre em Petrolina a pastora Raquel Ferreira da Silva",
+		    title: "Raquel Ferreira da Silva",
 		    content: "Nesta madrugada desta quinta-feira (13)  faleceu em Petrolina a Pastora e Professora Raquel Ferreira da Silva, Nascida em 25/02/1972. Casada com Tenente Geraldo Severino da Silva, Pastora na Igreja Batista Pentecostal do Evangelho Pleno Ministério MINAV no Bairro José e Maria. Petrolina perde uma grande líder Eclesiástica e Professora Vitimada por AVC Hemorrágico.  Mulher batalhadora, Líder incansável na luta para resgatar vidas; não mediu esforços para ajudar a comunidade. Pessoa Carismática e respeitada, Pastora Raquel dedicava-se com prazer ao Ministério Eclesiástico e Pedagógico. Deixa uma grande lacuna no seio da Família, Igreja e Sociedade. O velório está acontecendo na Escola Pequeno Sábio onde era professora. Rua Rio Porção, 38 José e Maria, Petrolina (Por trás da Escola Antônio Padilha) O féretro seguirá amanhã dia 14/08 às 10hs para o Cemitério Campo da Paz \"Combati o bom combate, acabei a carreira, guardei a fé. Desde agora, a coroa da justiça me está guardada, a qual o Senhor, justo juiz, me dará naquele dia; e não somente a mim, mas também a todos os que amarem a sua vinda.\" 2 Timóteo 4:7,8 Até Breve, Pastora Raquel !"
 		},
 		{
@@ -282,7 +287,7 @@ let Content = [
 		    content: "O irmão do deputado federal Gonzaga Patriota, Ercílio Freire dos Santos, de 52 anos, foi assassinado na manhã desta segunda-feira (3), na Rua 8 do bairro Antonio Cassimiro, em Petrolina, Sertão de Pernambuco. De acordo com a polícia, a vítima tinha ido visitar um sobrinho no local. Quando saiu da casa do sobrinho e estava passando por um cruzamento, Ercílio foi abordado por um homem que chegou em uma bicicleta atirando. A vítima foi atingida por diversos tiros e morreu dentro do carro. O criminoso fugiu. A família de Ercílio informou que ele atuava como motorista de aplicativo, mas no momento do crime não estava trabalhando. A Polícia Civil esteve no local do crime e o caso está sendo investigado. O corpo de Ercílio foi levado para o Instituto Médico Legal (IML) de Petrolina. Em 24 horas, este foi o terceiro homicídio registrado em Petrolina. Na tarde do domingo (2), um jovem de 24 anos também foi morto a tiros no bairro São Jorge. Também no domingo, um homem de 32 anos foi morto no Gercino Coelho."
 		},
 		{
-		    title: "Morre o empresário e advogado Pedrinho da New River",
+		    title: "Pedrinho da New River",
 		    content: "Petrolina recebeu com muita tristeza nessa noite de quarta-feira(26) a noticia divulgada pela família, do falecimento do empresário e advogado, Marcos Alexandre da Silva, conhecido como Pedrinho da New River. Pedrinho tinha testado positivamente  a  coronavírus e estava internado para tratamento em uma unidade hospitalar privada de Petrolina. Ele não resistiu e foi a óbito. Pedrinho tem um histórico de trabalho e  de dedicação a Petrolina.  Foi  presidente da Câmara de Dirigentes Lojistas (CDL) e participou de vários movimentos sociais como empresário do ramo da indústria têxtil. Ele deixa esposa, dois filhos e netos. A família ainda não detalhou os procedimentos para o velório e o sepultamento dele. Em nota, a  subseccional Petrolina da Ordem dos Advogados do Brasil lamentou o falecimento do colega Marcos Alexandre da Silva, conhecido como Pedrinho da New River: “Manifestamos nosso pesar e prestamos condolências a sua família e amigos que sofrem com essa perda.”."
 		}
 	    ]
@@ -291,18 +296,10 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "Projeto urbanístico da Porta do Rio será inaugurada nesta sexta em Petrolina",
+		    title: "Projeto urbanístico da Porta do Rio",
 		    content: "Será entregue nesta sexta-feira (3), às 18h30, pelo prefeito Miguel Coelho, mais um equipamento que trará lazer e atividades físicas para população de Petrolina. Trata-se do projeto urbanístico da Porta do Rio, que tem o objetivo abraçar todos os públicos com equipamentos inclusivos e para pessoas de diferentes faixas etárias e interesses. O espaço foi adotado pela iniciativa privada através do programa ‘Nossa Praça’, da prefeitura municipal, e não contou com recursos públicos. A Porta do Rio traz diversas opções de lazer. As crianças vão ter à disposição atividades recreativas e educativas, como amarelinha (com algarismo e em linguagem de sinais), centopeia do alfabeto (também com letras e em linguagem de sinais), educação sobre trânsito e balanço (convencional e para pessoas com deficiência física). De acordo com a prefeitura, o projeto também inclui polo gastronômico, pista de 300 metros para caminhadas ou corridas, quadra poliesportiva, equipamentos de ginástica, áreas para prática de esportes urbanos (skate e patins) e um espaço recreativo para animais domésticos."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -359,19 +356,19 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "Morre em Petrolina o ex-vereador Dedé da Simpatia",
+		    title: "Dedé da Simpatia",
 		    content: "Segundo o radialista Vinicius de Santana faleceu na manhã deste sábado, dia 27, o ex-vereador Dedé da Simpatia. Ele passou mal quando se dirigia para o interior do município para cumprir agenda política, como sempre faz aos finais de semana. O motorista ainda tentou retornar à cidade para uma unidade hospitalar, mas Dedé não resistiu e faleceu no caminho. Segundo as informações ele sofreu um infarto. O corpo de José Crispiniano Coelho, o Dedé da Simpatia, será velado até o final da tarde de hoje (27) em sua residência, no bairro Cohab Massangano em Petrolina. Logo após será levado para o Sítio Cachoeirinha, próximo ao povoado Simpatia, onde será sepultado no domingo (28)."
 		},
 		{
-		    title: "Morre em Petrolina \"Seu Euclides do Trevo\"",
+		    title: "Seu Euclides do Trevo",
 		    content: "Morreu na Madrugada desta sexta-feira (21), Euclides Vicente da Silva Filho, 72 anos, conhecido popularmente com \"Seu Euclides do Trevo\". A causa do falecimento foi infarto. Através de nota a vereadora Cristina Costa divulgou que \"Foi com imensa tristeza que recebemos a notícia do falecimento de Seu Euclides Vicente da Silva Filho, de 72 anos. Para todos nós, Seu Euclides do Trevo\". \"O sobrenome que Petrolina deu ao empresário da antiga boate trevo, a esse filho de Caruaru que nossa cidade adotou, pelo carisma, pelo envolvimento dele com as questões do município, pela consciência política e por ter escolhido essa terra para criar seus filhos. Seu Euclides fará falta nas rádios, nas suas participações sempre colocando muito bem seu senso crítico, suas posições, e defendendo uma Petrolina mais justa e igualitária, cobrando dos nossos representantes o seu papel. Nós solidarizamos com Dona Nina, sua esposa,e todos os familiares e amigos, na certeza de que Deus tem conforto para todos\". O velório está acontecendo no SAF da Avenida Sete de Setembro, e o sepultamento será às 16h no cemitério do SAF."
 		},
 		{
-		    title: "Morre em Petrolina Caio Costa Caribé, filho do ex-deputado Aníbal Caribé",
+		    title: "Caio Costa Caribé",
 		    content: "Faleceu no inicio da noite desta quinta-feira (26), na cidade de Petrolina o Engenheiro Caio Costa Caribé. O mesmo é funcionário de carreira do Tribunal de Contas do Estado de Pernambuco, Inspetoria Regional com sede na cidade de Petrolina. As primeiras informações dão conta de que Caio Caribé estaria fazendo caminha pela Orla Fluvial como de costume, quando por volta das 19:30 horas se sentiu mal e veio a óbito vitima de um infarto. Caio Caribé como é conhecido na região estava com 50 anos de idade, é filho do ex-deputado estadual, Aníbal Caribé e sobrinho de Maza Caribé, ex-esposa do prefeito de Cabrobó, Marcilio Cavalcanti."
 		},
 		{
-		    title: "Morreu em Petrolina Laurenita Viana esposa de Aurivalter Cordeiro",
+		    title: "Laurenita Viana",
 		    content: "Faleceu na noite desta quarta-feira (13), Laurenita Viana, conhecida carinhosamente por Lelê. Lelê é esposa de Aurivalter Cordeiro, Superintendente da 3ª SR/Codevasf, de acordo com informações de familiares a mesma sofreu um infarto, foi socorrida para o hospital Memorial em Petrolina, mas não resistiu e veio a óbito. As primeiras informações dão conta que o corpo de Laurenita Viana (Lelê), será velado em sua cidade Cabrobó e o sepultamento será na tarde desta quinta-feira (14)."
 		}
 	    ]
@@ -380,7 +377,7 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "Inauguração do novo Cineteatro da Univasf acontecerá nesta quinta-feira",
+		    title: "Cineteatro da Univasf",
 		    content: "A Universidade Federal do Vale do São Francisco (Univasf) irá inaugurar, nesta quinta-feira (19), o novo Cineteatro, que está localizado no Campus Sede, em Petrolina (PE). O espaço tem 2.070 metros quadrados de área total, capacidade para 433 pessoas e oferece infraestrutura para eventos acadêmicos e atividades culturais. A cerimônia de inauguração será realizada a partir das 18h e será aberta a toda a comunidade acadêmica e à sociedade em geral. A inauguração terá a presença do reitor Julianeli Tolentino de Lima e do vice-reitor Telio Nobre Leite. Também serão comemorados, durante a solenidade, os 15 anos de atividades acadêmicas da Univasf, completados em 18 de outubro deste ano. A programação terá início com a apresentação da Orquestra Philarmonica 21 de Setembro, às 18h00. Em seguida, haverá dois espetáculos de balé com as companhias do Estúdio de Danças Nazareth Macedo e com a Escola de Ballet Valdete Cezar. Durante a solenidade, haverá também o lançamento e a primeira obliteração do selo comemorativo pelos 15 anos da Univasf, confeccionado pelos Correios. No hall do Cineteatro estará em exibição a Mostra Fotográfica Univasf 15 Anos, realizada pela Diretoria de Arte, Cultura e Ações Comunitárias (DACC) da Pró-Reitoria de Extensão (Proex) e pela Assessoria de Comunicação Social (Ascom). A exposição conta com 40 fotografias coloridas, das quais 25 foram feitas por servidores, estagiários, estudantes e terceirizados da Univasf e selecionadas por meio de edital. A mostra também é composta por um conjunto de fotografias do acervo institucional da Ascom e DACC. O Cineteatro tem hall de exposição, palco, banheiros masculino e feminino, camarim com banheiro interno, sala de apoio administrativo, central de processamento de dados, depósito, copa e distribuição, ambiente de carga e descarga. O espaço é equipado com poltronas com prancheta, piso e paredes revestidos com carpete, forro acústico e palco com cortina motorizada de veludo. A edificação possui também ao fundo do palco uma esquadria que possibilita a realização de apresentações direcionadas à área externa do Cineteatro. As obras de construção da edificação foram iniciadas em novembro de 2009, paralisadas em julho de 2012 e retomadas em 2017. O novo equipamento recebeu investimentos de aproximadamente R$ 6,4 milhões em recursos."
 		},
 		{
@@ -388,14 +385,6 @@ let Content = [
 		    content: "O Parque Josepha Coelho ganha a partir da próxima semana dois novos equipamentos para agradar ao público. O prefeito Miguel Coelho inaugura, neste domingo (25), uma pista de skate e um jardim sensorial no maior espaço de lazer do município. A solenidade ocorre a partir das 9h. Os dois equipamentos ampliarão as opções de lazer do parque municipal. Para os amantes de esportes radicais, a pista de skate foi construída com concreto especial, em formato bowl (abaulado), adequada com medidas para competições nacionais. Já o jardim sensorial, será uma atração inclusiva para pessoas com deficiência. A nova estrutura conta com canteiros de plantas que aguçam as sensações, pedras e uma fonte de água corrente. Os dois novos atrativos se somam ao novo sistema de irrigação implantado para manter preservadas as áreas verdes do parque. Para realizar a obra, a Prefeitura de Petrolina investiu cerca de R$ 600 mil."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -461,7 +450,7 @@ let Content = [
 		},
 		{
 		    title: "Morre em Petrolina o ex-deputado Geraldo Coelho",
-		    content: "Faleceu por volta das 23 horas e 50 minutos de ontem o ex-deputado Geraldo Coelho, Geraldo estava internado no Hospital Dom Thomás já fazia alguns dias. Ex-vereador, ex-presidente da câmara municipal de Petrolina, ex-prefeito daquela cidade e ex-deputado por 6 mandatos. Geraldo morreu aos 92 anos de idade, seu corpo está sendo velado na câmara de vereadores de Petrolina e será sepultado as 16:00 horas no cemitério Campo das Flores. Geraldo Coelho ficou conhecido como o trator do sertão, apelido carinhoso dado por seus eleitores tendo em vista a firmeza como defendia os sertanejos. Água encanada e energia elétrica para as famílias do campo, estradas asfaltada nas comunidades, essas eram lutas constantes de Geraldo na assembléia legislativa. O sertão teve em Dr. Geraldo não apenas um representante, sim um incansável defensor de seus interesses."
+		    content: "Faleceu por volta das 23 horas e 50 minutos de ontem o ex-deputado Geraldo Coelho, Geraldo estava internado no Hospital Dom Thomás já fazia alguns dias. Ex-vereador, ex-presidente da câmara municipal de Petrolina, ex-prefeito daquela cidade e ex-deputado por 6 mandatos. Geraldo morreu aos 92 anos de idade, seu corpo está sendo velado na câmara de Vereadores de Petrolina e será sepultado as 16:00 horas no cemitério Campo das Flores. Geraldo Coelho ficou conhecido como o trator do sertão, apelido carinhoso dado por seus eleitores tendo em vista a firmeza como defendia os sertanejos. Água encanada e energia elétrica para as famílias do campo, estradas asfaltada nas comunidades, essas eram lutas constantes de Geraldo na assembléia legislativa. O sertão teve em Dr. Geraldo não apenas um representante, sim um incansável defensor de seus interesses."
 		},
 		{
 		    title: "Morreu na noite desta segunda-feira (24) em Santa Maria da Boa Vista o lendário Gilmar Santos",
@@ -486,20 +475,12 @@ let Content = [
 		}
 	    ]
 	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
-	},
 	personalidades: {
 	    type: 7,
 	    content: [
 		{
 		    title: "Bispo Francisco Canindé Palhano",
-		    content: "Dom Francisco Canindé Palhano (São José de Mipibu, 1 de fevereiro de 1949) é um bispo católico brasileiro, da Diocese de Petrolina. </br>Ingressou no Seminário de São Pedro, em Natal, em 1960. Cursou Letras na Universidade Federal do Rio Grande do Norte, Filosofia e Teologia no Seminário Central do Ipiranga em São Paulo. Recebeu a ordenação diaconal em 6 de janeiro de 1974, na Igreja Matriz de Sant’Ana e São Joaquim, em São José de Mipibu. </br>Canindé Palhano foi ordenado ao sacerdócio em 2 de fevereiro de 1975, através Dom Nivaldo Monte, Arcebispo Metropolitano de Natal. É mestre em Teologia Moral, pela Academia Alfonsiana da Pontifícia Universidade Lateranense, em Roma (1985-1987). Dirigiu grupos na Arquidiocese de Natal e recebeu o título de Monsenhor em 29 de novembro de 1991. </br>Foi nomeado pelo Papa Bento XVI, em 26 de julho de 2006, para a Diocese de Bonfim, na Bahia. Recebeu a ordenação episcopal em 21 de outubro daquele ano, na Catedral de Natal, através de Dom Matias Patrício de Macêdo, Arcebispo de Natal, Dom Jaime Vieira Rocha, Bispo de Campina Grande, e Dom Heitor de Araújo Sales, Arcebispo Emérito de Natal. </br>Em seu ministério como sexto bispo da Diocese de Bonfim, Dom Francisco implantou no Ginásio Diocesano uma das etapas de formação inicial ao sacerdócio; ordenou dezesseis padres e dois diáconos; implantou a Pastoral Hospitalar; fortaleceu o movimento Encontro de Casais em Cristo; promoveu a reforma da Casa Episcopal e a iniciação da reforma geral da Catedral Diocesana. Também tomou parte no Conselho Nacional do Encontro de Casais com Cristo. </br>Dom Palhano foi nomeado em 3 de janeiro de 2018 como bispo de Petrolina, Pernambuco. Tomou posse como oitavo bispo da Diocese em 3 de março de 2018."
+		    content: "Dom Francisco Canindé Palhano (São José de Mipibu, 1 de fevereiro de 1949) é um bispo católico brasileiro, da Diocese de Petrolina. </br></br>Ingressou no Seminário de São Pedro, em Natal, em 1960. Cursou Letras na Universidade Federal do Rio Grande do Norte, Filosofia e Teologia no Seminário Central do Ipiranga em São Paulo. Recebeu a ordenação diaconal em 6 de janeiro de 1974, na Igreja Matriz de Sant’Ana e São Joaquim, em São José de Mipibu. </br></br>Canindé Palhano foi ordenado ao sacerdócio em 2 de fevereiro de 1975, através Dom Nivaldo Monte, Arcebispo Metropolitano de Natal. É mestre em Teologia Moral, pela Academia Alfonsiana da Pontifícia Universidade Lateranense, em Roma (1985-1987). Dirigiu grupos na Arquidiocese de Natal e recebeu o título de Monsenhor em 29 de novembro de 1991. </br></br>Foi nomeado pelo Papa Bento XVI, em 26 de julho de 2006, para a Diocese de Bonfim, na Bahia. Recebeu a ordenação episcopal em 21 de outubro daquele ano, na Catedral de Natal, através de Dom Matias Patrício de Macêdo, Arcebispo de Natal, Dom Jaime Vieira Rocha, Bispo de Campina Grande, e Dom Heitor de Araújo Sales, Arcebispo Emérito de Natal. </br></br>Em seu ministério como sexto bispo da Diocese de Bonfim, Dom Francisco implantou no Ginásio Diocesano uma das etapas de formação inicial ao sacerdócio; ordenou dezesseis padres e dois diáconos; implantou a Pastoral Hospitalar; fortaleceu o movimento Encontro de Casais em Cristo; promoveu a reforma da Casa Episcopal e a iniciação da reforma geral da Catedral Diocesana. Também tomou parte no Conselho Nacional do Encontro de Casais com Cristo. </br></br>Dom Palhano foi nomeado em 3 de janeiro de 2018 como bispo de Petrolina, Pernambuco. Tomou posse como oitavo bispo da Diocese em 3 de março de 2018."
 		}
 	    ]
 	},
@@ -507,7 +488,7 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "Haddad e Paulo juntos em Petrolina",
+		    title: "Haddad e Paulo",
 		    content: "As vizinhas Petrolina e Juazeiro foram palco, neste domingo (23), de um ato com a participação do presidenciável Fernando Haddad (PT), e dos candidatos à reeleição Paulo Câmara (PSB-PE) e Rui Costa (PT-BA). Em carro-aberto, os governadores e o presidenciável cruzaram a ponte que liga as duas cidades acompanhados por um \"Rio São Francisco de gente\", que exibia as cores amarela e vermelha. O governador do Piauí, Wellington Dias (PT), também participou do evento, que reuniu mais de 30 mil pessoas."
 		},
 		{
@@ -536,17 +517,17 @@ let Content = [
 	    type: 3,
 	    content: [
 		{
-		    title: "São João de Petrolina 2017",
+		    title: "São João",
 		    content: "O lançamento do São João de Petrolina 2017 foi realizado na noite desta sexta-feira (12) no Círculo Militar no Centro de Petrolina, no Sertão de Pernambuco. Durante o evento que contou a presença de artistas e convidados, o prefeito Miguel Coelho anunciou as atrações do festejo, que vai acontecer entre os dias 16 a 24 de junho. Serão nove dias de festa no pátio Ana das Carrancas, além do São João nos bairros, que vai ocorrer em oito dias, iniciando na próxima sexta-feira (19). Serão 71 bandas entre atrações locais e nacionais. Entre os nomes em destaque estão: Luan Santana, Bruno & Marrone, Simone e Simaria, Henrique & Juliano, Aviões do Forró, Matheus & Kauan, Léo Magalhães, Gabriel Diniz, Solange, Jorge & Matheus, Bell Marques, Felipão, Wesley Safadão, Israel Novaes e Pablo."
+		},
+		{
+		    title: "São João dos Bairros",
+		    content: "Nesta sexta, o arraiá começa com apresentações de Saia Rodada, New  Bis e Adennys Vaqueiro. A festa segue no sábado (27) com animação das bandas Sem Radar, Jonathan Araújo e a irreverência de Pedro Duarte. A secretária de Cultura, Turismo e Esportes de Petrolina, Maria Elena de Alencar, explica que o local foi escolhido, estrategicamente, para contemplar todas as comunidades localizadas nas proximidades da Avenida dos Tropeiros. “Todos os locais de realização da festa nos bairros foram pensados de forma estratégica para contemplar não apenas o bairro onde será montado o palco, mas todo o seu entorno. No caso da Avenida dos Tropeiros, é um local democrático e temos certeza que conseguiremos contemplar milhares de moradores” explicou Elena."
 		},
 		{
 		    title: "Show Capital Inicial",
 		    content: "Capital Inicial é uma banda de rock brasileira formada em Brasília, Distrito Federal, em 1982, depois que o grupo Aborto Elétrico encerrou as atividades, dando início também à banda Legião Urbana. Agora Capital Inicial 35 anos – Acústico NYC, ou simplesmente Acústico NYC, é o segundo álbum acústico da banda de rock brasileira. Dia 19 de agosto você poderá curtir essa maravilhosa banda de pertinho, no Iate Clube em Petrolina, no Sertão de Pernambuco."
 		},
-		{
-		    title: "São João dos Bairros",
-		    content: "Nesta sexta, o arraiá começa com apresentações de Saia Rodada, New  Bis e Adennys Vaqueiro. A festa segue no sábado (27) com animação das bandas Sem Radar, Jonathan Araújo e a irreverência de Pedro Duarte. A secretária de Cultura, Turismo e Esportes de Petrolina, Maria Elena de Alencar, explica que o local foi escolhido, estrategicamente, para contemplar todas as comunidades localizadas nas proximidades da Avenida dos Tropeiros. “Todos os locais de realização da festa nos bairros foram pensados de forma estratégica para contemplar não apenas o bairro onde será montado o palco, mas todo o seu entorno. No caso da Avenida dos Tropeiros, é um local democrático e temos certeza que conseguiremos contemplar milhares de moradores” explicou Elena."
-		}
 	    ]
 	},
 	obituario: {
@@ -570,25 +551,17 @@ let Content = [
 		    content: "O Ministério da Educação inaugurou, nesta sexta-feira, 17, a primeira etapa da Policlínica da Universidade Federal do Vale do São Francisco (Univasf) no município de Petrolina, em Pernambuco. Foram investidos R$ 8,4 milhões. Na ocasião, o ministro da Educação, Mendonça Filho, anunciou a liberação de R$ 1,4 milhão para a segunda etapa da nova unidade. O investimento vai permitir a aquisição de equipamentos para o setor de imagem e para o bloco cirúrgico da policlínica. A unidade de saúde vai funcionar no conceito hospital-dia. A partir da próxima segunda-feira, 20, vai realizar atendimentos ambulatoriais por meio de regulação de usuários egressos do Hospital Universitário da Univasf e de encaminhamentos das secretarias de saúde da região. Desde maio do ano passado, os investimentos do MEC na Univasf já somam R$ 13,2 milhões, incluídos os recursos direcionados à Policlínica."
 		},
 		{
-		    title: "Inauguração da nova “Praça da Juventude” do bairro João de Deus",
+		    title: "Praça da Juventude",
 		    content: "O prefeito Miguel Coelho convida a todos para inauguração da Praça da Juventude que será entregue aos moradores do bairro João de Deus, em Petrolina, neste sábado (26), com a presença do governador Paulo Câmara. O equipamento público conta com quadra poliesportiva, pista de caminhadas entre outros atrativos para a prática de esportes e lazer na comunidade. A solenidade de inauguração está agendada para iniciar às 16h com presença de várias lideranças políticas e os moradores da região."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
 	    content: [
 		{
 		    title: "Miguel Coelho",
-		    content: "Nascido no Recife, Miguel Coelho é filho do senador Fernando Bezerra Coelho e irmão dos deputados Fernando Coelho Filho e Antônio Coelho. Teve a carreira profissional iniciada em São Paulo, onde se graduou bacharel em Direito. Possui Pós-Graduação Lato Sensu no Master em Liderança e Gestão Pública do Instituto Singularidades. Atualmente, realiza Pós-Graduação Lato Sensu em Gestão de Negócios pela Fundação Dom Cabral. </br>Em paralelo à atuação profissional, Miguel Coelho iniciou sua trajetória política aos 23 anos, ao se candidatar a deputado estadual pelo PSB. Foi eleito com expressiva votação no sertão e Vale do São Francisco, com destaque para municípios como Petrolina, Ouricuri, Lagoa Grande, Santa Filomena e Dormentes. </br>Em julho de 2015, Miguel Coelho foi escolhido pelo diretório estadual socialista para presidir a comissão provisória do PSB de Petrolina. O deputado colocou como metas principais organizar o grupo petrolinense a fim de transformar a comissão em diretório municipal. O deputado também pautou o cargo em função de ampliar o número de filiados e fortalecer o relacionamento do PSB de Petrolina com os movimentos sociais. </br>Em 2016, Miguel Coelho foi candidato a prefeito de Petrolina pelo PSB na coligação \"Petrolina com a Força do Povo\" composto pelos partidos: PSB, PDT, PRTB, DEM, PSDC, PPL, PEN, PSC, SD, PR, PSD, PV, PTC, PSDB, PRP e REDE; tendo como candidata a vice-prefeita Luska Portela (DEM). Miguel terminou por vencer o pleito com 38,8% dos votos válidos, derrotando seus adversários, Odacy Amorim de Souza (PT), Edinaldo Lima (PMDB), Adalberto Cavalcanti (PTB) e Perpétua Rodrigues (PSOL). </br>Na eleição de Petrolina em 2020, foi candidato à reeleição para prefeito de Petrolina pelo MDB na coligação \"Petrolina com Força e União\", composta pelos partidos MDB, DEM, PTB, PL, PP, PSDB, PSC, Republicanos, Avante, PRTB, Patriota, PROS e Cidadania; tendo como candidato a Vice-prefeito Simão Durando Filho. Miguel terminou por vencer o pleito com 76,19% dos votos válidos, derrotando seus adversários, Júlio Lóssio Filho (PSD) Odacy Amorim de Souza (PT), Gabriel Menezes (PSL), Dr. Marcos (PSOL) e Deomiro Santos (PV)."
+		    content: "Nascido no Recife, Miguel Coelho é filho do senador Fernando Bezerra Coelho e irmão dos deputados Fernando Coelho Filho e Antônio Coelho. Teve a carreira profissional iniciada em São Paulo, onde se graduou bacharel em Direito. Possui Pós-Graduação Lato Sensu no Master em Liderança e Gestão Pública do Instituto Singularidades. Atualmente, realiza Pós-Graduação Lato Sensu em Gestão de Negócios pela Fundação Dom Cabral. </br></br>Em paralelo à atuação profissional, Miguel Coelho iniciou sua trajetória política aos 23 anos, ao se candidatar a deputado estadual pelo PSB. Foi eleito com expressiva votação no sertão e Vale do São Francisco, com destaque para municípios como Petrolina, Ouricuri, Lagoa Grande, Santa Filomena e Dormentes. </br></br>Em julho de 2015, Miguel Coelho foi escolhido pelo diretório estadual socialista para presidir a comissão provisória do PSB de Petrolina. O deputado colocou como metas principais organizar o grupo petrolinense a fim de transformar a comissão em diretório municipal. O deputado também pautou o cargo em função de ampliar o número de filiados e fortalecer o relacionamento do PSB de Petrolina com os movimentos sociais. </br></br>Em 2016, Miguel Coelho foi candidato a prefeito de Petrolina pelo PSB na coligação \"Petrolina com a Força do Povo\" composto pelos partidos: PSB, PDT, PRTB, DEM, PSDC, PPL, PEN, PSC, SD, PR, PSD, PV, PTC, PSDB, PRP e REDE; tendo como candidata a vice-prefeita Luska Portela (DEM). Miguel terminou por vencer o pleito com 38,8% dos votos válidos, derrotando seus adversários, Odacy Amorim de Souza (PT), Edinaldo Lima (PMDB), Adalberto Cavalcanti (PTB) e Perpétua Rodrigues (PSOL). </br></br>Na eleição de Petrolina em 2020, foi candidato à reeleição para prefeito de Petrolina pelo MDB na coligação \"Petrolina com Força e União\", composta pelos partidos MDB, DEM, PTB, PL, PP, PSDB, PSC, Republicanos, Avante, PRTB, Patriota, PROS e Cidadania; tendo como candidato a Vice-prefeito Simão Durando Filho. Miguel terminou por vencer o pleito com 76,19% dos votos válidos, derrotando seus adversários, Júlio Lóssio Filho (PSD) Odacy Amorim de Souza (PT), Gabriel Menezes (PSL), Dr. Marcos (PSOL) e Deomiro Santos (PV)."
 		}
 	    ]
 	},
@@ -612,8 +585,32 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Vereadores",
+		    content: [
+			{ nome: "Osório Siqueira", partido: "PSB", votos: null, percent: null },
+			{ nome: "Maria Elena", partido: "PSB", votos: null, percent: null },
+			{ nome: "Zenildo do Alto do Cocar", partido: "PSB", votos: null, percent: null },
+			{ nome: "Edilsão do trânsito", partido: "PDT", votos: null, percent: null },
+			{ nome: "Elias Jardim", partido: "PHS", votos: null, percent: null },
+			{ nome: "Major enfermeiro", partido: "PMDB", votos: null, percent: null },
+			{ nome: "Manoel da Acosap", partido: "PTB", votos: null, percent: null },
+			{ nome: "Paulo Valgueiro", partido: "PMDB", votos: null, percent: null },
+			{ nome: "Gilberto Melo", partido: "PR", votos: null, percent: null },
+			{ nome: "Professor Zé Batista", partido: "PDT", votos: null, percent: null },
+			{ nome: "Gaturiano Cigano", partido: "PRP", votos: null, percent: null },
+			{ nome: "Gabriel Menezes", partido: "PSL", votos: null, percent: null },
+			{ nome: "Elismar Gonçalves", partido: "PMDB", votos: null, percent: null },
+			{ nome: "Domingos de Cristália", partido: "PSL", votos: null, percent: null },
+			{ nome: "Osinaldo", partido: "PTB", votos: null, percent: null },
+			{ nome: "Cristina Costa", partido: "PT", votos: null, percent: null },
+			{ nome: "Ronaldo Cancão", partido: "PTB", votos: null, percent: null },
+			{ nome: "Alex de jesus", partido: "PRB", votos: null, percent: null },
+			{ nome: "Professor Gilmar Santos", partido: "PT", votos: null, percent: null },
+			{ nome: "Cícero Freire", partido: "PR", votos: null, percent: null },
+			{ nome: "Ronaldo Silva", partido: "PSDB", votos: null, percent: null },
+			{ nome: "Ruy Wanderley", partido: "PSC", votos: null, percent: null },
+			{ nome: "Rodrigo Araujo", partido: "PSC", votos: null, percent: null },
+		    ]
 		}
 	    ]
 	},
@@ -638,23 +635,23 @@ let Content = [
 	    type: 4,
 	    content: [
 		{
-		    title: "Morre em Petrolina o Ex-Prefeito de Curaçá Aristóteles Loureiro (tote)",
+		    title: "Curaçá Aristóteles Loureiro",
 		    content: "Faleceu às 03:40h da madrugada desta quarta-feira (17), no Hospital Neurocárdio, em Petrolina, o ex-prefeito em duas oportunidades do município de Curaçá Aristóteles Loureiro, popular Tote. As primeiras informações dão conta de que o ex-prefeito que já apresentava um quadro de saúde complicado devido ao Mal de Parkinson teria agravado nas últimas horas por problemas respiratórios e a sua morte foi declarada oficialmente por volta das 03:40h. A família ainda não divulgou a programação do velório e sepultamento, que ocorrerá em sua cidade natal, Curaçá. Mais notícias no decorrer da nossa programação."
 		},
 		{
-		    title: "Morre em Petrolina o Empresário Robert Car",
+		    title: "Empresário Robert Car",
 		    content: "Morreu na noite desta sexta-feira (11) em Petrolina, o empresário Roberto Moura, popularmente conhecido como Robert Car, dono de diversas revendedoras de carros na cidade, entre elas, a Petromol, Imperial Honda, Granjapan e Granfrance. Roberto estava na luta contra um câncer há mais de dois anos, e foi vencido pela doença na noite desta sexta-feira. Em razão do momento de pesar nenhuma das suas empresas Petromol, Honda e Nissan abrirá as portas neste sábado (12)."
 		},
 		{
-		    title: "Faleceu na madruga de hoje (11) em Petrolina a Professora Maria Amélia",
+		    title: "Professora Maria Amélia",
 		    content: "Lamentamos informar que por volta das 4 horas da manhã desta segunda-feira (11), faleceu aos 97 anos de idade em sua residência na cidade de Petrolina, a Professora Maria Amélia. O corpo da Professora Maria Amélia será velado no velódromo do SAF em Petrolina até as 12:00 horas de hoje, em seguida  será levado para o Distrito de Urimamã, município de Santa Maria da Boa Vista. O sepultamento da Professora Maria Amelia, será as 16:00 horas de hoje no cemitério público do Distrito de Urimamã."
 		},
 		{
-		    title: "Morre em Petrolina ex-deputada Isabel Cristina",
+		    title: "Isabel Cristina",
 		    content: "Faleceu nesta manha de quarta-feira (22) a ex-deputada, professora e filha de Petrolina Isabel Cristina. Ela estava internada, depois que sofreu uma cirurgia de risco na cabeça. O quadro de Cristina era grave. Na manhã desta quarta-feira (22) ela faleceu no Hospital onde estava internada. Por volta das 7:30, ela sofreu uma parada cardíaca e veio a óbito, segundo informações médicas."
 		},
 		{
-		    title: "Morre em Petrolina o ex-vereador Nisaldo da Cisagro",
+		    title: "Nisaldo da Cisagro",
 		    content: "Morreu em Petrolina o cabroboense José Nisaldo de Vasconcelos. Nisaldo foi Vereador da cidade de Petrolina (1993/1988) e assumiu a Presidência da Câmara nos anos de 1986 e 1987. Tambem foi secretário municipal na administração do ex prefeito Diniz Cavalcanti (1976/1982), Nisaldo foi secretário de agricultura, Nisaldo tambem foi secretário da mesma pasta em Cabrobó na administração de Zé Dilson (2001/2004). Nisaldo da Cisagro como era mais conhecido, estava só em seu apartamento. Seu filho foi visita-lo e achou estranho ele não atender. Teve que forçar a porta até ela abrir. Dentro do apartamento Nisaldo estava sem vida. Os amigos mais próximos acham que ele pode ter sofrido um infarto. Por conta disso o Presidente da Casa Plinio Amorim, Osório Siqueira, suspendeu a sessão desta terça-feira (29) e cedeu o salão do plenário para o velório de José Nisaldo."
 		}
 	    ]
@@ -663,7 +660,7 @@ let Content = [
 	    type: 5,
 	    content: [
 		{
-		    title: "Reabertura do Parque Josefa Coelho acontecerá neste sábado",
+		    title: "Reabertura do Parque Josefa Coelho",
 		    content: "A cidade de Petrolina está prestes a ganhar um novo Parque Josefa Coelho , o espaço está totalmente equipado para o desenvolvimento de atividades esportivas, socioculturais e de lazer. O parque fica localizado no bairro Maria Auxiliadora e será entregue para a população neste sábado (09). Uma festa, a partir das 9h30, deve marcar a inauguração do espaço com um grande festival esportivo de Vôlei de areia, Futebol de areia, Futsal, Handebol masculino e feminino, Tênnis e apresentação dos Skatistas. Além de muitas brincadeiras e atrações para as crianças (cama elástica, piscina de bolinha, tobogã, campeonato de futebol de sabão, entre outras), apresentação da Banda Municipal Filarmônica 21 de Setembro. O parque recebeu diversas melhorias: serviços de substituição do pavimento da pista de caminhada; recuperação das quadras de futsal e tênis, recuperação dos campos de futebol de areia e vôlei de areia, implantação de campo de futebol society gramado, recuperação das arenas , banheiros e brinquedos, reforma da guarita, pintura do gradil de contorno e demarcação de vagas de estacionamento, construção de um nove pista de Skate e recuperação das demais. Além da implantação de novos brinquedos e equipamentos de ginástica. Segundo o prefeito de Petrolina, Julio Lossio, as obras agradarão muito a população. \"Foram realizadas grandes mudanças. Petrolina vive um novo momento e este é um governo de grandes realizações. Estamos fazendo muito na área da saúde, esporte, lazer e cultura, assim como em todas as outras áreas e vamos fazer muito mais. Nossas obras são feitas de acordo com os anseios da população, com planejamento e qualidade\", enfatizou."
 		},
 		{
@@ -671,18 +668,10 @@ let Content = [
 		    content: "Na noite desta sexta-feira (22), o prefeito Miguel Coelho inaugurou a nova rede de postes da Principal via do bairro do Parque Massangano. O evento contou com a presença do senador Fernando Bezerra, do ministro Fernando Filho, vereadores, lideranças comunitárias e moradores da região. Foram implantados 15 postes com 30 luminárias ao longo de 800 metros da avenida. A Secretaria de Desenvolvimento Urbano e Sustentabilidade ainda realizou um mutirão de serviços na localidade com limpeza, patrolamento, poda e desobstrução do canal. Durante a inauguração, além de entregar a nova iluminação, o prefeito Miguel Coelho informou aos moradores que novas ações serão realizadas para valorizar o Parque Massangano. “Eu sei que os anseios dessa comunidade são muito grandes. O secretário Eduardo Carvalho me informou que são necessários mais 100 pontos de luz para cobrir todo o bairro. E adianto que já autorizamos. Além disso, estamos com o projeto de saneamento quase pronto para exigir da Compesa investimentos no Parque Massangano”, revelou o prefeito."
 		},
 		{
-		    title: "Prefeitura de Petrolina inaugura no bairro Cosme e Damião o Clube do Bairro/Academia da Saúde",
+		    title: "Clube do Bairro/Academia da Saúde",
 		    content: "A Secretaria de Saúde de Petrolina inaugura nesta terça-feira (08), às 19h, mais um Clube do Bairro/Academia da Saúde. Localizado no bairro Cosme e Damião, o espaço visa contribuir para a promoção de práticas corporais e atividades físicas e de lazer. “Trabalhar com promoção à saúde e prevenir doenças é importantíssimo! É isso que estamos fazendo quando inauguramos um Clube do Bairro/Academia da Saúde. Estamos cuidando das pessoas. A academia é um equipamento importante para estimular práticas saudáveis e melhorar a qualidade de vida da nossa população”, pontou a secretária de Saúde, Lucia Giesta. O Clube do Bairro/Academia da Saúde conta com sala de vivência, acolhimento, banheiros, pista de caminhada, equipamentos de ginástica e um playground, além um técnico de enfermagem acolher os usuários e um educador físico do Núcleo de Apoio à Saúde da Família (NASF) para desenvolver atividades com a comunidade."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -697,8 +686,8 @@ let Content = [
 	    type: 8,
 	    content: [
 		{
-		    title: "Presidente Dilma Rousseff cumpre agenda em Petrolina",
-		    content: "O avião oficial da presidente Dilma Rousseff pousou em Petrolina, no Sertão pernambucano, no Aeroporto Internacional Senador Nilo Coelho na manhã desta sexta-feira (19) por volta das 9h30. A presidente cumpre agenda no município e na cidade vizinha, Juazeiro-BA, para a entrega de unidades do Programa Minha Casa, Minha Vida e visita à Biofábrica Moscamed Brasil. </br>Dilma irá participar da cerimônia de entrega de 2.432 unidades habitacionais do Residencial Vivendas Petrolina I e II. A solenidade está programada para às 9h45. Em seguida, Dilma Rousseff irá para Juazeiro-BA visitar a Biofábrica Moscamed às 11h45."
+		    title: "Presidente Dilma Rousseff",
+		    content: "O avião oficial da presidente Dilma Rousseff pousou em Petrolina, no Sertão pernambucano, no Aeroporto Internacional Senador Nilo Coelho na manhã desta sexta-feira (19) por volta das 9h30. A presidente cumpre agenda no município e na cidade vizinha, Juazeiro-BA, para a entrega de unidades do Programa Minha Casa, Minha Vida e visita à Biofábrica Moscamed Brasil. </br></br>Dilma irá participar da cerimônia de entrega de 2.432 unidades habitacionais do Residencial Vivendas Petrolina I e II. A solenidade está programada para às 9h45. Em seguida, Dilma Rousseff irá para Juazeiro-BA visitar a Biofábrica Moscamed às 11h45."
 		}
 	    ]
 	},
@@ -728,7 +717,12 @@ let Content = [
 		{
 		    title: "Réveillon",
 		    content: "Os petrolinenses vão despedir-se de 2015 com uma programação musical, além do show pirotécnico. Foi confirmado na quinta-feira (17) o cronograma de apresentações da noite do dia 31 de dezembro até a entrada do dia 1º de janeiro na Orla de Petrolina, no Sertão pernambucano. A festa será composta por quatro bandas regionais. Por causa do evento, a Prefeitura de Petrolina aproveita para convocar os ambulantes que pretendem comercializar comidas e bebidas durante a festa. O show começa às 21h com Alan Cleber e Banda. Em seguida, o cantor Elisson Castro e Forró Pega Leve sobem ao palco. Já em 2016, quem comandará a festa é a Banda Desejo de Menina. O show da virada de Petrolina será encerrada pelo Grupo Novo Destak. De acordo com a Secretaria de Desenvolvimento Econômico, a queima de fogos ainda está sendo planejada."
+		},
+		{
+		    title: "Carnaval",
+		    content: "Há cinco dias do início do Carnaval de Petrolina, no Sertão de Pernambuco, a Prefeitura divulgou nesta segunda-feira (9), a programação do festejo da cidade. A Folia será realizada em três polos: 21 de Setembro, Areia Branca e no polo integrado da Cohab 6 e Rio Corrente. A festa começa no próximo sábado (14) e segue até a terça-feira (17), sempre com os shows começando às 21h. Assim como nos anos anteriores, o Polo 21 de Setembro será o ponto principal do Carnaval de Petrolina, onde será montado um palco próximo a orla e um mini-trio fará a animação da Praça 21 de Setembro. “Foi tudo acordado entre o município, Empresa de Turismo de Pernambuco (Empetur) e a Fundação do Patrimônio Histórico e Artístico de Pernambuco (Fundarpe). Em relação as bandas, demos prioridade em contratação de atrações da nossa região, para valorizar os artistas da terra. Infelizmente alguns não puderam participar porque não estavam com a documentação correta”, explica o secretário de Desenvolvimento Econômico e Agrário, Jorge Assunção. Sobre as atrações de renome nacional, o secretário esclarece que fez a indicação de alguns, mas os nomes não foram aprovados. “A nível nacional indiquei vários artistas, mas não foram selecionados porque não havia condições de deslocar esses músicos para Petrolina e por isso tivemos que optar por outros”."
 		}
+
 	    ]
 	},
 	obituario: {
@@ -764,14 +758,6 @@ let Content = [
 		    content: "Em clima de festa, a Guarda Municipal recebeu da Prefeitura de Petrolina a nova sede, nesta segunda-feira (27). Uma obra avaliada em mais de R$700.000,00, marcando assim o 21º aniversário da corporação. O evento que contou com a presença de diversas autoridades da área de segurança pública, foi realizado na Av. Darcy Ribeiro, bairro Maria Auxiliadora, entorno do Parque Municipal Josepha Coelho – endereço oficial da sede da GM. Estavam prestigiando a inauguração, além de autoridades da área de segurança, também, representantes do Legislativo, secretários, servidores do Munícipio, e familiares da Guarda, que puderam saborear, logo após a cerimônia, um requintado coquetel com direito a um bolo personalizado especialmente para a data."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -831,10 +817,6 @@ let Content = [
 		    title: "São João",
 		    content: "Depois de anunciar uma atração por dia durante a última semana, a Prefeitura de Petrolina, Sertão pernambucano, finalizou a divulgação da lista de atrações do São João do Vale 2014. O evento acontece de 21 a 27 de junho, no Pátio de Eventos Ana das Carrancas, localizado nas proximidades do Aeroporto Senador Nilo Coelho, na Zona Norte da cidade. Segundo a assessoria, a proposta da edição 2014 é a mistura de ritmos, por isso as atrações passeiam pelo axé music, arrocha, sertanejo universitário e pelo ritmo típico dos festejos juninos, o forró. Integram a programação as bandas Desejo de Menina, Aviões do Forró, as duplas Munhoz e Mariano, Jorge e Matheus e Cesar Menotti e Fabiano, além dos cantores Silvano Sales, Targino Gondim, Gusttavo Lima, Lucy Alves e Saulo Fernandes, última atração a ser anunciada."
 		},
-		{
-		    title: "Carnaval",
-		    content: "Há cinco dias do início do Carnaval de Petrolina, no Sertão de Pernambuco, a Prefeitura divulgou nesta segunda-feira (9), a programação do festejo da cidade. A Folia será realizada em três polos: 21 de Setembro, Areia Branca e no polo integrado da Cohab 6 e Rio Corrente. A festa começa no próximo sábado (14) e segue até a terça-feira (17), sempre com os shows começando às 21h. Assim como nos anos anteriores, o Polo 21 de Setembro será o ponto principal do Carnaval de Petrolina, onde será montado um palco próximo a orla e um mini-trio fará a animação da Praça 21 de Setembro. “Foi tudo acordado entre o município, Empresa de Turismo de Pernambuco (Empetur) e a Fundação do Patrimônio Histórico e Artístico de Pernambuco (Fundarpe). Em relação as bandas, demos prioridade em contratação de atrações da nossa região, para valorizar os artistas da terra. Infelizmente alguns não puderam participar porque não estavam com a documentação correta”, explica o secretário de Desenvolvimento Econômico e Agrário, Jorge Assunção. Sobre as atrações de renome nacional, o secretário esclarece que fez a indicação de alguns, mas os nomes não foram aprovados. “A nível nacional indiquei vários artistas, mas não foram selecionados porque não havia condições de deslocar esses músicos para Petrolina e por isso tivemos que optar por outros”."
-		}
 	    ]
 	},
 	obituario: {
@@ -855,14 +837,6 @@ let Content = [
 		    content: "Foi inaugurada nesta segunda, dia 8/12, a Rede Metropolitana do Vale do São Francisco (RedeVASF), iniciativa coordenada pela Rede Nacional de Ensino e Pesquisa (RNP), que faz parte do programa Redes Comunitárias de Educação e Pesquisa (Redecomep), e abrange os municípios de Petrolina (PE) e Juazeiro (BA)."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	visitas: {
 	    type: 8,
@@ -920,14 +894,6 @@ let Content = [
 		}
 	    ]
 	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
-	},
 	personalidades: {
 	    type: 7,
 	    content: [
@@ -957,8 +923,28 @@ let Content = [
 	    type: 2,
 	    content: [
 		{
-		    title: "404",
-		    content: "Não temos informações a respeito disso :("
+		    tipo: "Vereadores",
+		    content: [
+			{ nome: "Zenildo do Alto do Cocar", partido: "PSB", votos: "3.953", percent: "2,77%" },
+			{ nome: "Dr. Pérsio", partido: "PMDB", votos: "3.597", percent: "2,52%" },
+			{ nome: "Manoel da ACOSAP", partido: "PHS", votos: "3.370", percent: "2,37%" },
+			{ nome: "Osório Siqueira", partido: "PSB", votos: "3.226", percent: "2,26%" },
+			{ nome: "Edilsão", partido: "PSL", votos: "3.222", percent: "2,26%" },
+			{ nome: "Elias Jardim", partido: "PP", votos: "2.855", percent: "2%" },
+			{ nome: "Maria Elena", partido: "PSB", votos: "2.687", percent: "1,89%" },
+			{ nome: "Major Enfermeiro", partido: "PRTB", votos: "2.660", percent: "1,87%" },
+			{ nome: "Elismar Gonçalves", partido: "PMDB", votos: "2.636", percent: "1,85%" },
+			{ nome: "Ibamar", partido: "PRTB", votos: "2.604", percent: "1,83%" },
+			{ nome: "Professor Zé Batista", partido: "PDT", votos: "2.502", percent: "1,76%" },
+			{ nome: "Paraíba", partido: "PMDB", votos: "2.456", percent: "1,72%" },
+			{ nome: "Ailton Guimarães", partido: "PMDB", votos: "2.364", percent: "1,66%" },
+			{ nome: "Edinaldo Lima", partido: "PMDB", votos: "2.358", percent: "1,66%" },
+			{ nome: "Cristina Costa", partido: "PT", votos: "2.248", percent: "1,58%" },
+			{ nome: "Ronaldo Cancão", partido: "PSL", votos: "1.921", percent: "1,35%" },
+			{ nome: "Adalberto Filho", partido: "PSL", votos: "1.916", percent: "1,34%" },
+			{ nome: "Pedro Filippe", partido: "PSL", votos: "1.913", percent: "1,34%" },
+			{ nome: "Geraldo da Acerola", partido: "PT", votos: "1.905", percent: "1,34%" },
+		    ]
 		}
 	    ]
 	},
@@ -1008,14 +994,6 @@ let Content = [
 		    content: "O Ministério Público do Trabalho (MPT) inaugurou na última terça-feira (30/10), em Petrolina, Pernambuco, nova instalação da Procuradoria do Trabalho no Município. A unidade está localizada no Edifício Morse Lyra Neto e estará aberta à população a partir de 5 de novembro. A solenidade de inauguração contou com as presenças do presidente da Associação Nacional dos Procuradores do Trabalho (ANPT), Carlos Eduardo Azevedo Limas, do procurador-geral do Trabalho, Luís Camargo, do procurador-chefe da Procuradoria Regional do Trabalho da 6ª Região, Fábio Farias, dentre diversas outras autoridades."
 		}
 	    ]
-	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
 	},
 	personalidades: {
 	    type: 7,
@@ -1082,20 +1060,12 @@ let Content = [
 		}
 	    ]
 	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
-	},
 	personalidades: {
 	    type: 7,
 	    content: [
 		{
 		    title: "Bispo Manoel dos Reis de Farias",
-		    content: "Dom Manoel dos Reis de Farias nasceu em Serra Verde, município de Orobó, Pernambuco. Seus pais eram Severino Francisco Alves e Josefa, esta falecida quando ele era ainda criança. Viúvo, o pai contraiu um novo matrimônio e confiou os três filhos a avó Dona Benvenuta. Manoel cresceu seguindo a profissão dos pais, agricultor. </br>Na adolescência, sentiu-se animado a abraçar a vocação sacerdotal. Cursou o primeiro e segundo graus no Colégio Pio XII dos Irmãos Maristas, em Surubim, Pernambuco e aos 17 anos entrou no seminário. Os estudos filosóficos aconteceram no Instituto Estrela Missionária em Nova Iguaçu, e a Teologia na Escola Teológica do Mosteiro de São Bento em Olinda. É também formado em Direito Canônico, pelo Instituto Superior do Rio de Janeiro, instituição filiada à Pontifícia Universidade Gregoriana de Roma. Sua ordenação diaconal aconteceu em 6 de janeiro de 1982."
+		    content: "Dom Manoel dos Reis de Farias nasceu em Serra Verde, município de Orobó, Pernambuco. Seus pais eram Severino Francisco Alves e Josefa, esta falecida quando ele era ainda criança. Viúvo, o pai contraiu um novo matrimônio e confiou os três filhos a avó Dona Benvenuta. Manoel cresceu seguindo a profissão dos pais, agricultor. </br></br>Na adolescência, sentiu-se animado a abraçar a vocação sacerdotal. Cursou o primeiro e segundo graus no Colégio Pio XII dos Irmãos Maristas, em Surubim, Pernambuco e aos 17 anos entrou no seminário. Os estudos filosóficos aconteceram no Instituto Estrela Missionária em Nova Iguaçu, e a Teologia na Escola Teológica do Mosteiro de São Bento em Olinda. É também formado em Direito Canônico, pelo Instituto Superior do Rio de Janeiro, instituição filiada à Pontifícia Universidade Gregoriana de Roma. Sua ordenação diaconal aconteceu em 6 de janeiro de 1982."
 		}
 	    ]
 	},
@@ -1232,24 +1202,16 @@ let Content = [
 		}
 	    ]
 	},
-	estatisticas: {
-	    type: 6,
-	    natalidade: 20,
-	    mortalidade: 30,
-	    criminalidade: 10,
-	    escolaridade: 43,
-	    populacao: 200000
-	},
 	personalidades: {
 	    type: 7,
 	    content: [
 		{
 		    title: "Bispo Paulo Cardoso da Silva",
-		    content: "Nasceu em Caruaru, Pernambuco, filho de Antonina de Melo Cardoso e Antônio Cardoso da Silva. Seu irmão mais velho, José Cardoso Sobrinho, também é frade carmelita e é arcebispo emérito de Olinda e Recife. </br>Estudou Filosofia e Teologia no Seminário Carmelita de São Paulo. Obteve licenciatura em Ciências Sociais pela Faculdade de Filosofia de Caruaru e mestrado na mesma matéria pela Pontifícia Universidade Gregoriana. </br>Dom Paulo foi ordenado padre no dia 11 de dezembro de 1960. Foi pároco de Camocim de São Félix, onde fundou o Convento Nossa Senhora Peregrina, assim como o Colégio Monte Carmelo, anexo ao convento. Em 30 de novembro de 1984 foi nomeado bispo de Petrolina e recebeu a ordenação episcopal no dia 19 de março do ano seguinte, das mãos de Dom Augusto Carvalho, bispo de Caruaru. Foi empossado como bispo diocesano no dia 1 de maio de 1985. Seu lema episcopal é Evangelizar os pobres. </br>No dia 27 de julho de 2011 o Papa Bento XVI aceitou o seu pedido de renúncia, por limite de idade, ao encargo da Diocese de Petrolina."
+		    content: "Nasceu em Caruaru, Pernambuco, filho de Antonina de Melo Cardoso e Antônio Cardoso da Silva. Seu irmão mais velho, José Cardoso Sobrinho, também é frade carmelita e é arcebispo emérito de Olinda e Recife. </br></br>Estudou Filosofia e Teologia no Seminário Carmelita de São Paulo. Obteve licenciatura em Ciências Sociais pela Faculdade de Filosofia de Caruaru e mestrado na mesma matéria pela Pontifícia Universidade Gregoriana. </br></br>Dom Paulo foi ordenado padre no dia 11 de dezembro de 1960. Foi pároco de Camocim de São Félix, onde fundou o Convento Nossa Senhora Peregrina, assim como o Colégio Monte Carmelo, anexo ao convento. Em 30 de novembro de 1984 foi nomeado bispo de Petrolina e recebeu a ordenação episcopal no dia 19 de março do ano seguinte, das mãos de Dom Augusto Carvalho, bispo de Caruaru. Foi empossado como bispo diocesano no dia 1 de maio de 1985. Seu lema episcopal é Evangelizar os pobres. </br></br>No dia 27 de julho de 2011 o Papa Bento XVI aceitou o seu pedido de renúncia, por limite de idade, ao encargo da Diocese de Petrolina."
 		},
 		{
 		    title: "Júlio Lóssio",
-		    content: "Foi Prefeito de Petrolina por dois mandatos (2009-2012) e (2013-2016). Em 2018 se candidatou ao cargo de Governador de Pernambuco pela REDE (Rede Sustentabilidade), obtendo 176.492 votos, totalizando assim 4,67% dos votos válidos. Ficando na 4 (quarta) posição.</br>Nasceu em Manaus, Amazonas, filho de um engenheiro e uma professora. Quando tinha quase dois anos de idade ficou órfão de pai, e sua mãe decidiu ir morar na cidade do interior do Ceará chamada Jardim, lá ele cresceu e estudou até seus 14 anos, pois se mudou de Jardim para Recife e foi nesta cidade que começou seus estudos em medicina.</br>Casado com Andréa Lóssio e pai de três filhos (Júlio Filho, Júlia e João Victor), formou-se em medicina na UFPE (Universidade Federal de Pernambuco)."
+		    content: "Foi Prefeito de Petrolina por dois mandatos (2009-2012) e (2013-2016). Em 2018 se candidatou ao cargo de Governador de Pernambuco pela REDE (Rede Sustentabilidade), obtendo 176.492 votos, totalizando assim 4,67% dos votos válidos. Ficando na 4 (quarta) posição.</br></br>Nasceu em Manaus, Amazonas, filho de um engenheiro e uma professora. Quando tinha quase dois anos de idade ficou órfão de pai, e sua mãe decidiu ir morar na cidade do interior do Ceará chamada Jardim, lá ele cresceu e estudou até seus 14 anos, pois se mudou de Jardim para Recife e foi nesta cidade que começou seus estudos em medicina.</br></br>Casado com Andréa Lóssio e pai de três filhos (Júlio Filho, Júlia e João Victor), formou-se em medicina na UFPE (Universidade Federal de Pernambuco)."
 		}
 	    ]
 	},
@@ -1273,7 +1235,6 @@ let Content = [
 	atracoes: null,
 	obituario: null,
 	inauguracoes: null,
-	estatisticas: null,
 	resumo: {
 	    type: 1,
 	    content: "um resumo do ano"
